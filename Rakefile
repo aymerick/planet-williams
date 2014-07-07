@@ -25,6 +25,8 @@ task :deploy do
     cp_r "#{gen_dir}/.", deploy_dir
   end
 
+  cp "CNAME", deploy_dir
+
   cd "#{deploy_dir}" do
     system "git add -A"
 
