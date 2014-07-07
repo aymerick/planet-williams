@@ -1,6 +1,6 @@
 # Planet-williams
 
-This README outlines the details of collaborating on this Ember application.
+This is the source code for the Planet Williams web site: http://www.planet-williams.org
 
 ## Installation
 
