@@ -13,17 +13,15 @@ task :deploy do
 
   system "ember build --environment=production"
 
-  if gen_dir != deploy_dir
-    puts "## Pulling any updates from Github Pages "
-    cd "#{deploy_dir}" do
-      system "git pull"
-    end
-
-    (Dir["#{deploy_dir}/*"]).each { |f| rm_rf(f) }
-
-    puts "## Copying #{gen_dir} to #{deploy_dir}"
-    cp_r "#{gen_dir}/.", deploy_dir
+  puts "## Pulling any updates from Github Pages "
+  cd "#{deploy_dir}" do
+    system "git pull"
   end
+
+  (Dir["#{deploy_dir}/*"]).each { |f| rm_rf(f) }
+
+  puts "## Copying #{gen_dir} to #{deploy_dir}"
+  cp_r "#{gen_dir}/.", deploy_dir
 
   cd "#{deploy_dir}" do
     system "git add -A"
