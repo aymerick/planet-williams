@@ -1,3 +1,11 @@
 html, body {
   margin: 0px;
 }
+
+#map {
+	position: absolute;
+	top: 50px; /* navbar height */
+	bottom: 0;
+	left: 0;
+	right: 0px;
+}

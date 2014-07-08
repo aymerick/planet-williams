@@ -2,7 +2,9 @@
   "predef": {
     "document": true,
     "window": true,
-    "PlanetWilliamsENV": true
+    "PlanetWilliamsENV": true,
+    "EmberLeaflet": true,
+    "L": true
   },
   "browser" : true,
   "boss" : true,

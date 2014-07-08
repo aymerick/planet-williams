@@ -43,7 +43,9 @@
     "andThen",
     "currentURL",
     "currentPath",
-    "currentRouteName"
+    "currentRouteName",
+    "EmberLeaflet",
+    "L"
   ],
   "node": false,
   "browser": false,
