@@ -17,8 +17,15 @@ var app = new EmberApp();
 // please specify an object with the list of modules as keys
 // along with the exports of each module as its value.
 
-// Bootstrap
+// bootstrap
 app.import('vendor/bootstrap/dist/css/bootstrap.css');
 app.import('vendor/bootstrap/dist/js/bootstrap.js');
+
+// leaflet
+app.import('vendor/leaflet-dist/leaflet.css');
+app.import('vendor/leaflet-dist/leaflet.js');
+
+// ember-leaflet
+app.import('vendor/ember-leaflet/dist/ember-leaflet.min.js');
 
 module.exports = app.toTree();
