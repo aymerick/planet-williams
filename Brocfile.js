@@ -26,6 +26,6 @@ app.import('vendor/leaflet-dist/leaflet.css');
 app.import('vendor/leaflet-dist/leaflet.js');
 
 // ember-leaflet
-app.import('vendor/ember-leaflet/dist/ember-leaflet.min.js');
+app.import('vendor/ember-leaflet/dist/ember-leaflet.js');
 
 module.exports = app.toTree();

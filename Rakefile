@@ -13,8 +13,6 @@ task :deploy do
 
   system "ember build --environment=production"
 
-  mkdir deploy_dir
-
   if gen_dir != deploy_dir
     puts "## Pulling any updates from Github Pages "
     cd "#{deploy_dir}" do
