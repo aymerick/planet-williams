@@ -2,6 +2,9 @@
 
 var EmberApp = require('ember-cli/lib/broccoli/ember-app');
 
+var mergeTrees = require('broccoli-merge-trees');
+var pickFiles  = require('broccoli-static-compiler');
+
 var app = new EmberApp();
 
 // Use `app.import` to add additional libraries to the generated
@@ -25,7 +28,13 @@ app.import('vendor/bootstrap/dist/js/bootstrap.js');
 app.import('vendor/leaflet-dist/leaflet.css');
 app.import('vendor/leaflet-dist/leaflet.js');
 
+var extraLeafletAssets = pickFiles('vendor/leaflet-dist', {
+  srcDir: '/',
+  files: ['images/*.png'],
+  destDir: '/'
+});
+
 // ember-leaflet
 app.import('vendor/ember-leaflet/dist/ember-leaflet.js');
 
-module.exports = app.toTree();
+module.exports = mergeTrees([app.toTree(), extraLeafletAssets]);
