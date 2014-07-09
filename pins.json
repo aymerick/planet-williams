@@ -1,0 +1,70 @@
+[{
+  "category": "association",
+  "org": "Autour des Williams",
+  "note": "Association francophone du syndrome de Williams et Beuren",
+  "photo": "https://fbcdn-sphotos-d-a.akamaihd.net/hphotos-ak-xpa1/t1.0-9/250241_109823875836946_728292510_n.jpg",
+  "url": "http://www.autourdeswilliams.org",
+  "email": "autourdeswilliams@yahoo.fr",
+  "tel": "06 88 39 49 07",
+  "adr": {
+    "contact": "Chez madame Anne-Laure Thomas",
+    "street-address": "4 rue Edouard Detaille",
+    "postal-code": "75017",
+    "locality": "Paris",
+    "country-name": "France"
+  },
+  "location" : [ 48.8828366, 2.305363800000009 ]
+}, {
+  "category": "association",
+  "org": "Williams France",
+  "note": "Fédération Française du Syndrome de Williams et Beuren",
+  "photo": "http://bretagne.aymerick.com/img/logo_70x44.png",
+  "url": "http://www.williams-france.org",
+  "tel": "0820 825 512",
+  "adr": {
+    "street-address": "8 rue du Faubourg Poissonnière",
+    "postal-code": "7501",
+    "locality": "Paris",
+    "country-name": "France"
+  },
+  "location" : [ 48.8712913, 2.3483042000000296 ]
+}, {
+  "category": "association",
+  "org": "Association du Syndrome de Williams Région Bretagne",
+  "title": "Williams Bretagne",
+  "photo": "http://bretagne.aymerick.com/img/logo_70x44.png",
+  "url": "http://bretagne.aymerick.com",
+  "email": "aswb-bretagne@williams-france.org",
+  "adr": {
+    "contact": "Maison Associative de la Santé",
+    "street-address": "36, boulevard Albert 1er",
+    "postal-code": "35200",
+    "locality": "Rennes",
+    "country-name": "France"
+  },
+  "location" : [ 48.0887848, -1.6802291999999852 ]
+}, {
+  "category": "association",
+  "org": "Williams Syndrome Association of South Australia",
+  "url": "http://wsasa.org.au",
+  "email": "wsaofsa@adam.com.au",
+  "tel": "(08) 7329 5409",
+  "adr": {
+    "contact": "Trevor Smith",
+    "street-address": "83A Ridgway Drive",
+    "postal-code": "5159",
+    "locality": "Flagstaff Hill",
+    "country-name": "South Australia"
+  },
+  "location": [ -35.053398, 138.583855 ]
+}, {
+  "category": "association",
+  "org": "Williams Syndrome Family Support Group",
+  "url": "http://wsfsgvic.org.au/",
+  "email": "ws.vic.aus@gmail.com",
+  "adr": {
+    "region": "Victoria",
+    "country-name": "Australia"
+  },
+  "location" : [ -36.974044, 144.243998 ]
+}]
