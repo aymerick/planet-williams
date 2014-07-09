@@ -1,9 +1,13 @@
 import Ember from 'ember';
 
 var Pin = Ember.Object.extend({
-  popupContent: function() {
+  popupTitle: function() {
     return this.get('title') || this.get('org');
-  }.property('title', 'org')
+  }.property('title', 'org'),
+
+  popupDescription: function() {
+    return this.get('note') || this.get('org');
+  }.property('note', 'org')
 });
 
 Pin.reopenClass({

@@ -10,10 +10,27 @@ var TileLayer = EmberLeaflet.TileLayer.extend({
   }
 });
 
+var PopupViewClass = Ember.View.extend({
+  template: Ember.Handlebars.compile(
+    '<div class="popup-custom-view">' +
+    '  <img {{bind-attr src=view.content.photo}} class="popup-photo" />' +
+    '  <span class="popup-title">{{view.content.popupTitle}}</span>' +
+    '  <div class="popup-desc">{{view.content.popupDescription}}</div>' +
+    '  <a {{bind-attr href=view.content.url}} class="popup-url">website</a>' +
+    '</div>'
+  )
+});
+
 var MarkerLayer = EmberLeaflet.MarkerLayer.extend(
   EmberLeaflet.PopupMixin, {
-    popupContentBinding: 'content.popupContent',
-    locationBinding: 'content.location'
+    popupViewClass: PopupViewClass,
+    locationBinding: 'content.location',
+    popupOptions: {
+      'closeButton': false,
+      'minWidth': '200',
+      'maxWidth': '300',
+      'offset': L.point(0, -36)
+    }
   }
 );
 
