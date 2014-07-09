@@ -10,14 +10,20 @@ var TileLayer = EmberLeaflet.TileLayer.extend({
   }
 });
 
+// var PopupViewClass = Ember.View.extend({
+//   template: Ember.Handlebars.compile(
+//     '<div class="popup-custom-view">' +
+//     '  {{#if view.content.photo}}<img {{bind-attr src=view.content.photo}} class="popup-photo" />{{/if}}' +
+//     '  <span class="popup-title">{{view.content.popupTitle}}</span>' +
+//     '  <div class="popup-desc">{{view.content.popupDescription}}</div>' +
+//     '  <a {{bind-attr href=view.content.url}} class="popup-url">website</a>' +
+//     '</div>'
+//   )
+// });
+
 var PopupViewClass = Ember.View.extend({
   template: Ember.Handlebars.compile(
-    '<div class="popup-custom-view">' +
-    '  {{#if view.content.photo}}<img {{bind-attr src=view.content.photo}} class="popup-photo" />{{/if}}' +
-    '  <span class="popup-title">{{view.content.popupTitle}}</span>' +
-    '  <div class="popup-desc">{{view.content.popupDescription}}</div>' +
-    '  <a {{bind-attr href=view.content.url}} class="popup-url">website</a>' +
-    '</div>'
+    'test'
   )
 });
 
