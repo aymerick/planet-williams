@@ -13,7 +13,7 @@ var TileLayer = EmberLeaflet.TileLayer.extend({
 var PopupViewClass = Ember.View.extend({
   template: Ember.Handlebars.compile(
     '<div class="popup-custom-view">' +
-    '  <img {{bind-attr src=view.content.photo}} class="popup-photo" />' +
+    '  {{#if view.content.photo}}<img {{bind-attr src=view.content.photo}} class="popup-photo" />{{/if}}' +
     '  <span class="popup-title">{{view.content.popupTitle}}</span>' +
     '  <div class="popup-desc">{{view.content.popupDescription}}</div>' +
     '  <a {{bind-attr href=view.content.url}} class="popup-url">website</a>' +
@@ -27,7 +27,7 @@ var MarkerLayer = EmberLeaflet.MarkerLayer.extend(
     locationBinding: 'content.location',
     popupOptions: {
       'closeButton': false,
-      'minWidth': '200',
+      'minWidth': '300',
       'maxWidth': '300',
       'offset': L.point(0, -36)
     }
@@ -41,7 +41,7 @@ var MarkerCollectionLayer = EmberLeaflet.MarkerCollectionLayer.extend({
 
 export default EmberLeaflet.MapView.extend({
   center: L.latLng(37.76, -3.79),
-  zoom: 3,
+  zoom: 2,
   options: {
     maxZoom: 18,
     minZoom: 2

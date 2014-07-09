@@ -6,8 +6,12 @@ var Pin = Ember.Object.extend({
   }.property('title', 'org'),
 
   popupDescription: function() {
-    return this.get('note') || this.get('org');
-  }.property('note', 'org')
+    if (Ember.isNone(this.get('title'))) {
+      return this.get('note');
+    } else {
+      return this.get('org');
+    }
+  }.property('note')
 });
 
 Pin.reopenClass({

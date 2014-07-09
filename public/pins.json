@@ -30,8 +30,8 @@
   "location" : [ 48.8712913, 2.3483042000000296 ]
 }, {
   "category": "association",
-  "title": "Williams Bretagne",
   "org": "Association du Syndrome de Williams Région Bretagne",
+  "title": "Williams Bretagne",
   "photo": "http://bretagne.aymerick.com/img/logo_70x44.png",
   "url": "http://bretagne.aymerick.com",
   "email": "aswb-bretagne@williams-france.org",
@@ -43,4 +43,28 @@
     "country-name": "France"
   },
   "location" : [ 48.0887848, -1.6802291999999852 ]
+}, {
+  "category": "association",
+  "org": "Williams Syndrome Association of South Australia",
+  "url": "http://wsasa.org.au",
+  "email": "wsaofsa@adam.com.au",
+  "tel": "(08) 7329 5409",
+  "adr": {
+    "contact": "Trevor Smith",
+    "street-address": "83A Ridgway Drive",
+    "postal-code": "5159",
+    "locality": "Flagstaff Hill",
+    "country-name": "South Australia"
+  },
+  "location": [ -35.053398, 138.583855 ]
+}, {
+  "category": "association",
+  "org": "Williams Syndrome Family Support Group",
+  "url": "http://wsfsgvic.org.au/",
+  "email": "ws.vic.aus@gmail.com",
+  "adr": {
+    "region": "Victoria",
+    "country-name": "Australia"
+  },
+  "location" : [ -36.974044, 144.243998 ]
 }]
