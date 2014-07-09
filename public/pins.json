@@ -67,4 +67,83 @@
     "country-name": "Australia"
   },
   "location" : [ -36.974044, 144.243998 ]
+}, {
+  "category": "association",
+  "org": "Association belge du Syndrome de Williams",
+  "url": "http://www.syndromedewilliams.be",
+  "email": "info@syndromedewilliams.be",
+  "adr": {
+    "contact": "AFrAHM - section syndrome de Williams",
+    "street-address": "Avenue Albert Giraud, 24",
+    "postal-code": "1030",
+    "locality": "Bruxelles",
+    "country-name": "Belgique"
+  },
+  "location" : [ 50.874296, 4.378383 ]
+}, {
+  "category": "association",
+  "org": "Williams-Beuren Syndroom vzw",
+  "url": "http://www.williamsbeuren.be/",
+  "email": "info@williamsbeuren.be",
+  "tel": "(+32) (0) 16 22 42 32 ",
+  "adr": {
+    "street-address": "Tervuursesteenweg 30",
+    "postal-code": "B-3001",
+    "locality": "Heverlee",
+    "country-name": "Belgium"
+  },
+  "location" : [ 50.876644, 4.681562 ]
+}, {
+  "category": "association",
+  "org": "Associação Brasileira da Síndrome de Williams",
+  "url": "http://www.swbrasil.org.br",
+  "email": "swbrasil@swbrasil.org.br",
+  "tel": "(11) 2305-2957",
+  "adr": {
+    "street-address": "Avenida Fagundes Filho",
+    "locality": "São Paulo",
+    "country-name": "Brasil"
+  },
+  "location" : [ -23.626954, -46.636828 ]
+}, {
+  "category": "association",
+  "org": "Canadian Association for Williams Syndrome",
+  "photo": "http://caws.sasktelwebhosting.com/images/inside_logo.gif",
+  "url": "http://caws.sasktelwebhosting.com/",
+  "adr": {
+    "locality": "Vancouver",
+    "country-name": "Canada"
+  },
+  "location" : [ 49.25, -123.11 ]
+}, {
+  "category": "association",
+  "org": "Občanské sdružení Willík",
+  "url": "http://willik.tym.cz",
+  "email": "willik.tym@seznam.cz",
+  "adr": {
+    "locality": "Praha",
+    "country-name": "Czech Republic"
+  },
+  "location" : [ 50.0833145, 14.3100393 ]
+}, {
+  "category": "association",
+  "org": "Dansk forening for Williams syndrom",
+  "url": "http://williams-syndrom.dk",
+  "adr": {
+    "country-name": "Denmark"
+  },
+  "location" : [ 56.06, 9.36 ]
+}, {
+  "category": "association",
+  "org": "Federation of European Williams Syndrome ",
+  "title": "FEWS",
+  "url": "http://www.eurowilliams.org",
+  "email": "president@eurowilliams.org",
+  "adr": {
+    "street-address": "Tervuursesteenweg 30",
+    "postal-code": "3001",
+    "locality": "Heverlee",
+    "country-name": "Belgium"
+  },
+  "location" : [ 50.876573, 4.681570 ]
 }]
