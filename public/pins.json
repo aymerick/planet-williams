@@ -1,0 +1,45 @@
+[{
+  "category": "association",
+  "org": "Autour des Williams",
+  "note": "Association francophone du syndrome de Williams et Beuren",
+  "photo": "http://www.autourdeswilliams.org/j/templates/autour_des_williams_2009b/images/logo.gif",
+  "url": "http://www.autourdeswilliams.org",
+  "email": "autourdeswilliams@yahoo.fr",
+  "tel": "06 88 39 49 07",
+  "adr": {
+    "contact": "Chez madame Anne-Laure Thomas",
+    "street-address": "4 rue Edouard Detaille",
+    "postal-code": "75017",
+    "locality": "Paris",
+    "country-name": "France"
+  },
+  "location" : [ 48.8828366, 2.305363800000009 ]
+}, {
+  "category": "association",
+  "org": "Williams France",
+  "note": "Fédération Française du Syndrome de Williams et Beuren",
+  "url": "http://www.williams-france.org",
+  "tel": "0820 825 512",
+  "adr": {
+    "street-address": "8 rue du Faubourg Poissonnière",
+    "postal-code": "7501",
+    "locality": "Paris",
+    "country-name": "France"
+  },
+  "location" : [ 48.8712913, 2.3483042000000296 ]
+}, {
+  "category": "association",
+  "title": "Williams Bretagne",
+  "org": "Association du Syndrome de Williams Région Bretagne",
+  "photo": "http://bretagne.aymerick.com/img/logo_70x44.png",
+  "url": "http://bretagne.aymerick.com",
+  "email": "aswb-bretagne@williams-france.org",
+  "adr": {
+    "contact": "Maison Associative de la Santé",
+    "street-address": "36, boulevard Albert 1er",
+    "postal-code": "35200",
+    "locality": "Rennes",
+    "country-name": "France"
+  },
+  "location" : [ 48.0887848, -1.6802291999999852 ]
+}]
