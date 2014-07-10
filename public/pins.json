@@ -6,6 +6,7 @@
   "url": "http://www.autourdeswilliams.org",
   "email": "autourdeswilliams@yahoo.fr",
   "tel": "06 88 39 49 07",
+  "facebook": "https://www.facebook.com/autour.deswilliams",
   "adr": {
     "contact": "Chez madame Anne-Laure Thomas",
     "street-address": "4 rue Edouard Detaille",
@@ -35,6 +36,9 @@
   "photo": "http://bretagne.aymerick.com/img/logo_70x44.png",
   "url": "http://bretagne.aymerick.com",
   "email": "aswb-bretagne@williams-france.org",
+  "facebook": "https://www.facebook.com/williamsbretagne",
+  "twitter": "https://twitter.com/WilliamsBZH",
+  "google+": "https://plus.google.com/116488401380436328515/",
   "adr": {
     "contact": "Maison Associative de la Santé",
     "street-address": "36, boulevard Albert 1er",
@@ -49,12 +53,13 @@
   "url": "http://wsasa.org.au",
   "email": "wsaofsa@adam.com.au",
   "tel": "(08) 7329 5409",
+  "facebook": "https://www.facebook.com/groups/86960635460/",
   "adr": {
     "contact": "Trevor Smith",
     "street-address": "83A Ridgway Drive",
     "postal-code": "5159",
     "locality": "Flagstaff Hill",
-    "country-name": "South Australia"
+    "country-name": "Australia"
   },
   "location": [ -35.053398, 138.583855 ]
 }, {
@@ -62,6 +67,7 @@
   "org": "Williams Syndrome Family Support Group",
   "url": "http://wsfsgvic.org.au/",
   "email": "ws.vic.aus@gmail.com",
+  "facebook": "https://www.facebook.com/groups/266163493515010/",
   "adr": {
     "region": "Victoria",
     "country-name": "Australia"
@@ -72,12 +78,13 @@
   "org": "Association belge du Syndrome de Williams",
   "url": "http://www.syndromedewilliams.be",
   "email": "info@syndromedewilliams.be",
+  "facebook": "https://www.facebook.com/syndromewilliamsbelgique",
   "adr": {
     "contact": "AFrAHM - section syndrome de Williams",
     "street-address": "Avenue Albert Giraud, 24",
     "postal-code": "1030",
     "locality": "Bruxelles",
-    "country-name": "Belgique"
+    "country-name": "Belgium"
   },
   "location" : [ 50.874296, 4.378383 ]
 }, {
@@ -137,6 +144,7 @@
   "category": "association",
   "org": "Federation of European Williams Syndrome ",
   "title": "FEWS",
+  "photo": "http://bretagne.aymerick.com/img/fews.png",
   "url": "http://www.eurowilliams.org",
   "email": "president@eurowilliams.org",
   "adr": {
@@ -146,4 +154,140 @@
     "country-name": "Belgium"
   },
   "location" : [ 50.876573, 4.681570 ]
+}, {
+  "category": "association",
+  "org": "Bundesverband Williams Beuren Syndrom e.V.",
+  "url": "http://www.w-b-s.de/",
+  "adr": {
+    "street-address": "Urselbachstraße 17",
+    "postal-code": "61440",
+    "locality": "Oberursel",
+    "country-name": "Germany"
+  },
+  "location" : [ 50.180479, 8.595027 ]
+}, {
+  "category": "association",
+  "org": "Williams-Beuren-Syndrom Regionalgruppe Bayern-Süd",
+  "url": "http://www.wbs-bayern.de/",
+  "email": "webmaster@williams-beuren-syndrom.de",
+  "tel": "(089) 320 22 24",
+  "adr": {
+    "contact": "Benedita Frericks und Horst Romm",
+    "street-address": "Danziger Straße 2A",
+    "postal-code": "85748",
+    "locality": "Garching",
+    "region": "South Bavaria",
+    "country-name": "Germany"
+  },
+  "location" : [ 48.244587, 11.652743 ]
+}, {
+  "category": "association",
+  "org": "Landesverband Williams Beuren Syndrom NRW",
+  "url": "http://www.wbs-nrw.de/",
+  "email": "Bernd.Wein@wbs-nrw.de",
+  "tel": "02323-42923",
+  "adr": {
+    "country-name": "Germany"
+  },
+  "location" : [ 51.06, 10.34 ]
+}, {
+  "category": "association",
+  "org": "Magyar Williams Szindróma Társaság",
+  "url": "http://www.williams.org.hu",
+  "facebook": "https://www.facebook.com/mwszt",
+  "adr": {
+    "contact": "1091 Budapest, Ulloi ut 119., III. em. 49., Szekhely: 1089 Budapest, Orczy ut 2",
+    "street-address": "Orczy út 2",
+    "postal-code": "1089",
+    "locality": "Budapest",
+    "country-name": "Hungary"
+  },
+  "location" : [ 47.717764, 19.096852 ]
+}, {
+  "category": "association",
+  "org": "Williams Syndrome Association of Ireland",
+  "photo": "http://www.williamssyndrome.ie/wp-content/themes/r-theme/images/ws-logo.png",
+  "url": "http://www.williamssyndrome.ie",
+  "facebook": "https://www.facebook.com/pages/Williams-Syndrome-Association-of-Ireland/102566076471243",
+  "twitter": "https://twitter.com/WSAofI",
+  "youtube": "http://www.youtube.com/user/WilliamsIrelandTV",
+  "email": "wsai@eircom.net",
+  "tel": "090 964 3247",
+  "adr": {
+    "street-address": "13 Kilgarve Park",
+    "locality": "Ballinasloe",
+    "region": "Co.Galway",
+    "country-name": "Ireland"
+  },
+  "location" : [ 53.327773, -8.195206 ]
+}, {
+  "category": "association",
+  "org": "Williams Syndrome of Israel",
+  "url": "http://self-help.sheatufim.org.il/detail-orgeng.php?id=85",
+  "email": "gothelf@post.tau.ac.il",
+  "tel": "+972-(0)3-530-2663",
+  "adr": {
+    "contact": "Henriette Alon",
+    "street-address": "5 Louis Pasteur Street",
+    "postal-code": "68036",
+    "locality": "Yafo",
+    "country-name": "Israel"
+  },
+  "location" : [ 32.052621, 34.752596 ]
+}, {
+  "category": "association",
+  "org": "Associazione Italiana Sindrome di Williams",
+  "url": "http://www.aisw.it",
+  "adr": {
+    "contact": "Bambino Gesù ",
+    "street-address": "Piazza di Sant'Onofrio, 4",
+    "postal-code": "00165",
+    "locality": "Roma",
+    "country-name": "Italia"
+  },
+  "location" : [ 41.896989, 12.460824 ]
+}, {
+  "category": "association",
+  "org": "Associazione Italiana Sindrome di Williams - Toscana",
+  "url": "http://www.williamstoscana.org",
+  "facebook": "https://www.facebook.com/pages/AISW-Toscana-Onlus/164259284472",
+  "google+": "http://it.groups.yahoo.com/group/williamssindrome",
+  "youtube": "https://www.youtube.com/channel/UCYsgvU7R6Y1fJupF2EBEf5Q",
+  "email": "info@williamstoscana.org",
+  "adr": {
+    "street-address": "Via Franceschi, 1",
+    "postal-code": "50018",
+    "locality": "Broncigliano",
+    "region": "Florence, Toscana",
+    "country-name": "Italia"
+  },
+  "location" : [ 43.74207699999999, 11.1852769 ]
+}, {
+  "category": "association",
+  "org": "Oudernetwerk Williams Syndroom",
+  "url": "http://www.williams-syndroom.nl/",
+  "adr": {
+    "country-name": "Netherlands"
+  },
+  "location" : [ 52.16, 5.59 ]
+}, {
+  "category": "association",
+  "org": "New Zealand williams syndrome association",
+  "url": "http://www.williams-syndrome.org.nz",
+  "adr": {
+    "country-name": "New Zealand"
+  },
+  "location" : [ -42.39, 172.29 ]
+}, {
+  "category": "association",
+  "org": "Norsk Forening for Williams Syndrom",
+  "url": "http://www.williams-syndrom.no/",
+  "adr": {
+    "contact": "V/Grethe Lind",
+    "street-address": "Jønholtdalen 28",
+    "postal-code": "3922",
+    "locality": "Porsgrunn",
+    "country-name": "Norway"
+  },
+  "location" : [ 59.133900, 9.649583 ]
 }]
