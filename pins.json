@@ -38,7 +38,7 @@
   "email": "aswb-bretagne@williams-france.org",
   "facebook": "https://www.facebook.com/williamsbretagne",
   "twitter": "https://twitter.com/WilliamsBZH",
-  "google+": "https://plus.google.com/116488401380436328515/",
+  "google": "https://plus.google.com/116488401380436328515/",
   "adr": {
     "contact": "Maison Associative de la Santé",
     "street-address": "36, boulevard Albert 1er",
@@ -47,6 +47,97 @@
     "country-name": "France"
   },
   "location" : [ 48.0887848, -1.6802291999999852 ]
+}, {
+  "category": "association",
+  "org": "Association du Syndrome de Williams Région Auvergne",
+  "title": "Williams Auvergne/Centre",
+  "photo": "http://bretagne.aymerick.com/img/logo_70x44.png",
+  "url": "http://www.williams-france.org/fr/fiche-williams.php?fa=316",
+  "email": "aswb-auvergne@williams-france.org",
+  "tel": "0820 825 512",
+  "adr": {
+    "street-address": "21 Rue Jean Richepin",
+    "postal-code": "63000",
+    "locality": "Clermont-Ferrand",
+    "country-name": "France"
+  },
+  "location" : [ 45.781671, 3.085302 ]
+}, {
+  "category": "association",
+  "org": "Les Williams en Corse",
+  "url": "http://www.williamsencorse.com/",
+  "email": "lmes.alegre@infonie.fr",
+  "tel": "04 95 21 28 96",
+  "adr": {
+    "street-address": "Lotissement la Pietra, route du Salario",
+    "postal-code": "20000",
+    "locality": "Ajaccio",
+    "country-name": "France"
+  },
+  "location" : [ 41.924978, 8.722088 ]
+}, {
+  "category": "association",
+  "org": "Association du Syndrome de Williams Région Ile de France",
+  "title": "Williams Ile de France",
+  "photo": "http://bretagne.aymerick.com/img/logo_70x44.png",
+  "url": "http://www.syndromedewilliams.fr",
+  "email": "catherinedervieux@hotmail.com ",
+  "tel": "06.77.36.28.80",
+  "adr": {
+    "region": "Paris",
+    "country-name": "France"
+  },
+  "location" : [ 48.855810, 2.349806 ]
+}, {
+  "category": "association",
+  "org": "Williams Nord",
+  "photo": "http://bretagne.aymerick.com/img/logo_70x44.png",
+  "url": "http://www.williams-france.org/fr/fiche-williams.php?fa=165",
+  "email": "aswb-nord@williams-france.org",
+  "adr": {
+    "country-name": "France"
+  },
+  "location" : [ 50.26, 2.39 ]
+}, {
+  "category": "association",
+  "org": " Association du Syndrome de Williams & Beuren du Nord-Est",
+  "title": "Williams/France-Est",
+  "note": "Alsace, Lorraine, Champagne-Ardenne, Franche-Comté",
+  "photo": "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xaf1/t1.0-1/c18.18.231.231/s160x160/320756_250790094967417_119377171_n.jpg",
+  "url": "http://williams-nord-est.over-blog.com/",
+  "facebook": "https://www.facebook.com/williams.beuren",
+  "twitter": "https://twitter.com/WILLIAMS_BEUREN",
+  "email": "Williams.nord.est@gmail.com",
+  "adr": {
+    "country-name": "France"
+  },
+  "location" : [ 48.57, 6.14 ]
+}, {
+  "category": "association",
+  "org": "Williams-France Rhône-Alpes",
+  "title": "Williams Rhône-Alpes",
+  "photo": "http://aswbrhonealpes.pagesperso-orange.fr/photos/Logo%20aswb%20Rh%F4ne-Alpes.jpg",
+  "url": "http://aswbrhonealpes.pagesperso-orange.fr",
+  "email": "christophe.leone@wanadoo.fr",
+  "tel": "0820 825 512",
+  "adr": {
+    "country-name": "France"
+  },
+  "location" : [ 45.32, 5.16 ]
+}, {
+  "category": "association",
+  "org": "Association Williams Sud-Est",
+  "title": "Williams Sud-Est",
+  "photo": "http://www.williams-sudest.fr/wp-content/themes/Assos-Williams-Sud-Est/images/object0.png",
+  "url": "http://www.williams-sudest.fr/",
+  "tel": "04 94 68 31 72",
+  "adr": {
+    "street-address": "Quartier Saint Georges, Route départementale 21",
+    "postal-code": "83840",
+    "locality": "La bastide",
+    "country-name": "France"
+  },
+  "location" : [ 43.747088, 6.623643 ]
 }, {
   "category": "association",
   "org": "Williams Syndrome Association of South Australia",
@@ -251,7 +342,7 @@
   "org": "Associazione Italiana Sindrome di Williams - Toscana",
   "url": "http://www.williamstoscana.org",
   "facebook": "https://www.facebook.com/pages/AISW-Toscana-Onlus/164259284472",
-  "google+": "http://it.groups.yahoo.com/group/williamssindrome",
+  "google": "http://it.groups.yahoo.com/group/williamssindrome",
   "youtube": "https://www.youtube.com/channel/UCYsgvU7R6Y1fJupF2EBEf5Q",
   "email": "info@williamstoscana.org",
   "adr": {
@@ -290,4 +381,267 @@
     "country-name": "Norway"
   },
   "location" : [ 59.133900, 9.649583 ]
+}, {
+  "category": "association",
+  "org": "Stowarzyszenie zZespołu Williamsa",
+  "url": "http://www.zespolwilliamsa.org",
+  "email": "zespol.williamsa@gmail.com",
+  "adr": {
+    "contact": "Katarzyna Napora ",
+    "street-address": "Mątyki 54",
+    "postal-code": "14-204",
+    "locality": "Rudzienice",
+    "country-name": "Poland"
+  },
+  "location" : [ 53.628036, 19.675291 ]
+}, {
+  "category": "association",
+  "org": "Associação Portuguesa de Portadores de Síndrome de Williams",
+  "url": "http://medicosdeportugal.saude.sapo.pt/directorio/instituicoes/associacao_portuguesa_de_portadores_de_sindrome_de_williams",
+  "email": "appsw@net.sapo.pt",
+  "tel": "218 371 699",
+  "adr": {
+    "street-address": "Rua Doutor José Espírito Santo 1",
+    "postal-code": "1950-096",
+    "locality": "Lisboa",
+    "country-name": "Portugal"
+  },
+  "location" : [ 38.754705, -9.108859 ]
+}, {
+  "category": "association",
+  "org": "Asociaţia Williams Syndrome Romania",
+  "photo": "https://scontent-a.xx.fbcdn.net/hphotos-xaf1/t1.0-9/422032_266589543416720_395374177_n.jpg",
+  "url": "http://www.williams-syndrome.ro",
+  "facebook": "https://www.facebook.com/Asociatia.Sindrom.Williams",
+  "email": "office@williams-syndrome.ro",
+  "tel": "+40-723-553035",
+  "adr": {
+    "locality": "București",
+    "country-name": "Romania"
+  },
+  "location" : [ 44.423097, 26.122238 ]
+}, {
+  "category": "association",
+  "org": "Синдром Вильямса Фонд",
+  "url": "http://williams-syndrome.ru/",
+  "tel": "+7 (916) 229-07-91",
+  "adr": {
+    "contact": "Veronica Grigorieva",
+    "locality": "Moscow",
+    "country-name": "Russia"
+  },
+  "location" : [ 55.75, 37.61 ]
+}, {
+  "category": "association",
+  "org": "Spoločnosť Williamsovho syndrómu",
+  "url": "http://www.spolws.sk",
+  "tel": "2/52495387",
+  "adr": {
+    "contact": "Catherine Martincová  ",
+    "locality": "Bratislava",
+    "country-name": "Slovakia"
+  },
+  "location" : [ 48.15, 17.10 ]
+}, {
+  "category": "association",
+  "org": "Williams Syndrome Association of South Africa",
+  "url": "http://www.williams-syndrome.co.za/",
+  "email": "williamsyndromesa@gmail.com",
+  "tel": "084 574 2926/7",
+  "adr": {
+    "street-address": "PO Box 19113 Tecoma,",
+    "postal-code": "5214",
+    "locality": "East London",
+    "country-name": "South Africa"
+  },
+  "location" : [ -32.991687, 27.912120 ]
+}, {
+  "category": "association",
+  "org": "Asociacion Sindrome Williams de España",
+  "url": "http://www.sindromewilliams.org",
+  "facebook": "https://www.facebook.com/asweenmarcha",
+  "twitter": "https://twitter.com/_ASWE",
+  "email": "sindromewilliams@gmail.com",
+  "tel": "914 136 227",
+  "adr": {
+    "street-address": "Calle Mayo, 37B",
+    "postal-code": "28022",
+    "locality": "Madrid",
+    "country-name": "Spain"
+  },
+  "location" : [ 40.444602, -3.566901 ]
+}, {
+  "category": "association",
+  "org": "Asociación Síndrome de Williams de Andalucía",
+  "photo": "http://vl782.dinaserver.com/hosting/aswa.es/wordpress/wp-content/uploads/2013/03/Gr%C3%A1fico1.png",
+  "url": "http://www.aswa.es/",
+  "facebook": "https://www.facebook.com/pages/Asociaci%C3%B3n-S%C3%ADndrome-de-Williams-de-Andaluc%C3%ADa/117725388265469",
+  "email": "aswa@aswa.es",
+  "tel": "950 144 657",
+  "adr": {
+    "street-address": "Calle José Vera",
+    "postal-code": "18170",
+    "locality": "Alfacar",
+    "region": "Granada",
+    "country-name": "Spain"
+  },
+  "location" : [ 37.238329, -3.567580 ]
+}, {
+  "category": "association",
+  "org": "Asociacion Valenciana Sindrome de Williams",
+  "facebook": "https://www.facebook.com/pages/Asociacion-Valenciana-Sindrome-de-Williams/198742686854372",
+  "email": "avswvalencia@gmail.com",
+  "tel": "+34 659 27 32 34",
+  "adr": {
+    "street-address": "Plaza Alqueria Nova 13-49",
+    "postal-code": "46950",
+    "locality": "Xirivella",
+    "region": "Valencia",
+    "country-name": "Spain"
+  },
+  "location" : [ 39.467524, -0.417699 ]
+}, {
+  "category": "association",
+  "org": "Asociación Síndrome Williams en Galicia",
+  "url": "http://www.sindromewilliamsgalicia.es/",
+  "email": "galiciaaswg@gmail.com",
+  "tel": "687 85 63 70 ",
+  "adr": {
+    "street-address": "Avda de Ferrol, 25, 2º B",
+    "postal-code": "15706",
+    "locality": "Santiago de Compostela",
+    "region": "La Coruña",
+    "country-name": "Spain"
+  },
+  "location" : [ 42.870680, -8.553930 ]
+}, {
+  "category": "association",
+  "org": "Associació Catalana Síndrome de Williams",
+  "photo": "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xfp1/t1.0-1/c47.45.454.454/s160x160/68768_141814652531187_5992261_n.jpg",
+  "url": "http://www.acsw.cat",
+  "facebook": "https://www.facebook.com/As.Cat.S.W",
+  "email": "sw.cat@live.com",
+  "tel": "648 493 342",
+  "adr": {
+    "locality": "Barceolona",
+    "country-name": "Spain"
+  },
+  "location" : [ 41.384874, 2.182413 ]
+}, {
+  "category": "association",
+  "org": "Asociación Síndrome de Williams Cantabria",
+  "url": "http://www.sindromewilliamscantabria.org/",
+  "email": " info@sindromewilliamscantabria.org",
+  "tel": "638 611 127",
+  "adr": {
+    "locality": "Monte",
+    "region": "Cantabria",
+    "country-name": "Spain"
+  },
+  "location" : [ 43.470991, -3.825042 ]
+}, {
+  "category": "association",
+  "org": "Williams Syndromförening I Sverige",
+  "photo": "http://www.williams-syndrom.se/www/images/user/logo.png",
+  "url": "http://www.williams-syndrom.se/",
+  "email": "Annelie.thulin@gmail.com",
+  "adr": {
+    "country-name": "Sweden"
+  },
+  "location" : [ 62.87, 17.12 ]
+}, {
+  "category": "association",
+  "org": "Association suisse du syndrome de Williams-Beuren",
+  "photo": "http://www.williams-syndrome.ch/imgs/oben_links_new.jpg",
+  "url": "http://www.williams-syndrome.ch/",
+  "email": "assw.svws@gmail.com",
+  "tel": "079 419 17 50",
+  "adr": {
+    "street-address": "Case postale 825",
+    "postal-code": "2400",
+    "locality": "Le Locle",
+    "country-name": "Switzerland"
+  },
+  "location" : [ 47.057317, 6.751246 ]
+}, {
+  "category": "association",
+  "org": "Williams Sendromu Derneği Türkiye",
+  "photo": "http://www.williamssendromu.com/templates/gk_publisher/images/style1/logo.png",
+  "url": "http://www.williamssendromu.com",
+  "facebook": "https://www.facebook.com/pages/Williams-Syndrome-Turkey-Williams-Sendromu-Türkiye/175037539178035",
+  "email": "bilgi@williamssendromu.com",
+  "adr": {
+    "country-name": "Turkey"
+  },
+  "location" : [ 39.10, 35.57 ]
+}, {
+  "category": "association",
+  "org": "Williams Syndrome Foundation",
+  "photo": "http://www.williams-syndrome.org.uk/clients/www.williams-syndrome.org.uk/img/logo.jpg",
+  "url": "http://www.williams-syndrome.org.uk/",
+  "email": "enquiries@williams-syndrome.org.uk",
+  "tel": "01732 365152",
+  "adr": {
+    "street-address": "161 High Street",
+    "postal-code": "TN9 1BX",
+    "locality": "Tonbridge",
+    "country-name": "United Kingdom"
+  },
+  "location" : [ 51.198189, 0.275714 ]
+}, {
+  "category": "association",
+  "org": "Williams Syndrome Association",
+  "photo": "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xaf1/t1.0-1/p160x160/190006_10150102954401824_6977694_n.jpg",
+  "url": "http://www.williams-syndrome.org",
+  "facebook": "http://www.facebook.com/williamssyndrome",
+  "twitter": "http://www.twitter.com/theWSA",
+  "google": "https://plus.google.com/117777201962855390842",
+  "email": "info@williams-syndrome.org",
+  "tel": "248-244-2229",
+  "adr": {
+    "contact": "",
+    "street-address": "570 Kirts Boulevard, Suite 223",
+    "postal-code": "48084-4156",
+    "locality": "Troy",
+    "region": "Michigan",
+    "country-name": "USA"
+  },
+  "location" : [ 42.557951, -83.155581 ]
+}, {
+  "category": "association",
+  "org": "Corporación Síndrome de Williams Chile",
+  "photo": "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xpf1/v/t1.0-1/c29.31.370.370/s160x160/230138_155438534521293_7165737_n.jpg?oh=06da2a316f8ec5893ee9535e09f94f57&oe=544436E1&__gda__=1414952845_9f0c7f1da0525829cd60a0d0215de314",
+  "url": "http://www.cswchile.cl/",
+  "facebook": "https://www.facebook.com/pages/Corporación-Síndrome-de-Williams-Chile/155358387862641",
+  "twitter": "https://twitter.com/CSWChile",
+  "email": "corp.sw.chile@gmail.com",
+  "adr": {
+    "country-name": "Chile"
+  },
+  "location" : [ -33.32, -70.88 ]
+}, {
+  "category": "association",
+  "org": "Asociación Argentina de Síndrome de Williams",
+  "photo": "https://e6d6773f6ce4f2015f51a243c12b5006ba5f026d.googledrive.com/host/0B4-RZHtjzbDqN2FrbW9sLU5tMW8/imagen/logo1.gif",
+  "url": "http://www.aasw.org.ar/",
+  "email": "aaswilliams@gmail.com",
+  "adr": {
+    "country-name": "Argentina"
+  },
+  "location" : [ -36.28, -64.47 ]
+}, {
+  "category": "association",
+  "org": "Asociación Nacional de Síndrome de Williams, A.C. México",
+  "photo": "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xpa1/t1.0-1/c5.0.160.160/p160x160/10154901_665265226872100_8161927382090264455_n.jpg",
+  "facebook": "https://www.facebook.com/SindromeDeWilliamsMexico",
+  "twitter": "https://twitter.com/ANSWAC_MEXICO",
+  "email": "sindromewilliamsmexico@gmail.com",
+  "adr": {
+    "contact": "",
+    "street-address": "Av. Ruiz Cortines 31, Col. Lomas de Atizapán",
+    "postal-code": "52977",
+    "locality": "Ciudad López Mateos",
+    "country-name": "Mexico"
+  },
+  "location" : [ 19.554460, -99.262946 ]
 }]
