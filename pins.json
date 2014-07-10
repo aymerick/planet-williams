@@ -166,6 +166,23 @@
   "location" : [ -36.974044, 144.243998 ]
 }, {
   "category": "association",
+  "org": "Williams Syndrome Association of Western Australia",
+  "photo": "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xaf1/t1.0-1/c76.0.160.160/p160x160/1005121_477904292287379_415402617_n.jpg",
+  "url": "http://www.wsawa.org/",
+  "email": "wsawa@wsawa.org",
+  "tel": "0408 913 348",
+  "facebook": "https://www.facebook.com/WilliamsSyndromeAssociationOfWesternAustralia",
+  "adr": {
+    "contact": "Anthony & Misty Garrett",
+    "street-address": "210 Norton Promenade",
+    "postal-code": "6230",
+    "locality": "Dalyellup",
+    "region" : "WA",
+    "country-name": "Australia"
+  },
+  "location": [ -33.396539, 115.616255 ]
+}, {
+  "category": "association",
   "org": "Association belge du Syndrome de Williams",
   "url": "http://www.syndromedewilliams.be",
   "email": "info@syndromedewilliams.be",
@@ -208,11 +225,23 @@
   "org": "Canadian Association for Williams Syndrome",
   "photo": "http://caws.sasktelwebhosting.com/images/inside_logo.gif",
   "url": "http://caws.sasktelwebhosting.com/",
+  "facebook": "https://www.facebook.com/pages/Canadian-Association-for-Williams-Syndrome-CAWS/321749214576671",
   "adr": {
     "locality": "Vancouver",
     "country-name": "Canada"
   },
   "location" : [ 49.25, -123.11 ]
+}, {
+  "category": "association",
+  "org": "Canadian Association for Williams Syndrome - Ontario Chapter",
+  "photo": "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xaf1/t1.0-1/c8.12.116.116/162722_122458321156098_814578_n.jpg",
+  "facebook": "https://www.facebook.com/cawsontario",
+  "email": "cawsontario@live.ca",
+  "adr": {
+    "locality": "Toronto",
+    "country-name": "Canada"
+  },
+  "location" : [ 43.65, -79.37 ]
 }, {
   "category": "association",
   "org": "Občanské sdružení Willík",
@@ -330,13 +359,29 @@
   "org": "Associazione Italiana Sindrome di Williams",
   "url": "http://www.aisw.it",
   "adr": {
-    "contact": "Bambino Gesù ",
+    "contact": "Bambino Gesù",
     "street-address": "Piazza di Sant'Onofrio, 4",
     "postal-code": "00165",
     "locality": "Roma",
     "country-name": "Italia"
   },
   "location" : [ 41.896989, 12.460824 ]
+}, {
+  "category": "association",
+  "org": "Associazione Famiglie Sindrome di Williams",
+  "photo": "http://www.afsw.it/images/logo/logo_red.png",
+  "url": "http://www.afsw.it/",
+  "facebook": "https://www.facebook.com/pages/AFSW/375308679214596",
+  "youtube": "https://www.youtube.com/channel/UCLjLXXxdiKjtuutQnLqjk6g",
+  "email": "cristinaferretti@afsw.it",
+  "adr": {
+    "contact": "Clinica 'De Marchi'",
+    "street-address": "Via Della Commenda, 9",
+    "postal-code": "20122",
+    "locality": "Milano",
+    "country-name": "Italia"
+  },
+  "location" : [ 45.458467, 9.199027 ]
 }, {
   "category": "association",
   "org": "Associazione Italiana Sindrome di Williams - Toscana",
@@ -644,4 +689,28 @@
     "country-name": "Mexico"
   },
   "location" : [ 19.554460, -99.262946 ]
+}, {
+  "category": "association",
+  "org": "Suomen Williams yhdistys",
+  "url": "http://www.williamsyhdistys.fi/",
+  "email": "willit.hallitus(at)gmail.com ",
+  "adr": {
+    "street-address": "Santamaankuja 20",
+    "postal-code": "04300",
+    "locality": "Tuusula",
+    "country-name": "Finland"
+  },
+  "location" : [ 60.387620, 25.026024 ]
+}, {
+  "category": "association",
+  "org": "Association Algérienne du Syndrome de Williams et Beuren",
+  "photo": "http://www.algerieswb.com/images/LOGO_swb.png",
+  "url": "http://www.algerieswb.com/",
+  "email": "AlgeriesSWB@yahoo.fr",
+  "tel": "0662 40 58 88",
+  "adr": {
+    "locality": "Alger",
+    "country-name": "Algeria"
+  },
+  "location" : [ 36.75, 3.04 ]
 }]
