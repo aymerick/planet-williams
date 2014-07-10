@@ -430,6 +430,7 @@
   "category": "association",
   "org": "Stowarzyszenie zZespołu Williamsa",
   "url": "http://www.zespolwilliamsa.org",
+  "facebook": "https://www.facebook.com/pages/Stowarzyszenie-Zespołu-Williamsa-Williams-Syndrome-Zespół-Williamsa/198712933482646",
   "email": "zespol.williamsa@gmail.com",
   "adr": {
     "contact": "Katarzyna Napora ",
@@ -713,4 +714,13 @@
     "country-name": "Algeria"
   },
   "location" : [ 36.75, 3.04 ]
+}, {
+  "category": "personal",
+  "org": "Williams Syndrome Puerto Rico",
+  "photo": "https://scontent-a.xx.fbcdn.net/hphotos-xaf1/t1.0-9/1924833_220108531517846_915739376_n.png",
+  "facebook": "https://www.facebook.com/williamssyndromepr/timeline",
+  "adr": {
+    "country-name": "Puerto Rico"
+  },
+  "location" : [ 18.24, -66.48 ]
 }]
