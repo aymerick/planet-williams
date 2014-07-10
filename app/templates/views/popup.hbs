@@ -3,5 +3,8 @@
   <span class="popup-title">{{view.content.popupTitle}}</span>
   {{#if view.content.popupDescription}}<div class="popup-desc">{{view.content.popupDescription}}</div>{{/if}}
   <div class="popup-country">{{view.content.adr.country-name}}</div>
-  <a {{bind-attr href=view.content.url}} class="popup-url">website</a>
+  {{#if view.content.url}}<a {{bind-attr href=view.content.url}} class="popup-url">website</a>{{/if}}
+  {{#if view.content.facebook}}<a {{bind-attr href=view.content.facebook}} class="popup-facebook">facebook</a>{{/if}}
+  {{#if view.content.twitter}}<a {{bind-attr href=view.content.twitter}} class="popup-twitter">twitter</a>{{/if}}
+  {{#if view.content.google}}<a {{bind-attr href=view.content.google}} class="popup-google">google</a>{{/if}}
 </div>

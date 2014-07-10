@@ -30,12 +30,17 @@ html, body {
 
 #map .popup-desc {
   font-size: 12px;
-  margin-top: 20px;
+  margin-top: 15px;
 }
 
 #map .popup-country {
   font-weight: bold;
 }
 
-#map .popup-url {
+#map .popup-url,
+#map .popup-facebook,
+#map .popup-twitter,
+#map .popup-google
+{
+  display: block;
 }
