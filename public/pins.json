@@ -636,25 +636,6 @@
   "location" : [ 51.198189, 0.275714 ]
 }, {
   "category": "association",
-  "org": "Williams Syndrome Association",
-  "photo": "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xaf1/t1.0-1/p160x160/190006_10150102954401824_6977694_n.jpg",
-  "url": "http://www.williams-syndrome.org",
-  "facebook": "http://www.facebook.com/williamssyndrome",
-  "twitter": "http://www.twitter.com/theWSA",
-  "google": "https://plus.google.com/117777201962855390842",
-  "email": "info@williams-syndrome.org",
-  "tel": "248-244-2229",
-  "adr": {
-    "contact": "",
-    "street-address": "570 Kirts Boulevard, Suite 223",
-    "postal-code": "48084-4156",
-    "locality": "Troy",
-    "region": "Michigan",
-    "country-name": "USA"
-  },
-  "location" : [ 42.557951, -83.155581 ]
-}, {
-  "category": "association",
   "org": "Corporación Síndrome de Williams Chile",
   "photo": "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xpf1/v/t1.0-1/c29.31.370.370/s160x160/230138_155438534521293_7165737_n.jpg?oh=06da2a316f8ec5893ee9535e09f94f57&oe=544436E1&__gda__=1414952845_9f0c7f1da0525829cd60a0d0215de314",
   "url": "http://www.cswchile.cl/",
@@ -723,4 +704,193 @@
     "country-name": "Puerto Rico"
   },
   "location" : [ 18.24, -66.48 ]
+}, {
+  "category": "association",
+  "org": "Williams Syndrome Association",
+  "photo": "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xaf1/t1.0-1/p160x160/190006_10150102954401824_6977694_n.jpg",
+  "url": "http://www.williams-syndrome.org",
+  "facebook": "http://www.facebook.com/williamssyndrome",
+  "twitter": "http://www.twitter.com/theWSA",
+  "google": "https://plus.google.com/117777201962855390842",
+  "email": "info@williams-syndrome.org",
+  "tel": "248-244-2229",
+  "adr": {
+    "contact": "",
+    "street-address": "570 Kirts Boulevard, Suite 223",
+    "postal-code": "48084-4156",
+    "locality": "Troy",
+    "region": "Michigan",
+    "country-name": "USA"
+  },
+  "location" : [ 42.557951, -83.155581 ]
+}, {
+  "category": "association",
+  "org": "WSA Canyon Region",
+  "note": "S. California, Arizona, Hawaii",
+  "url": "http://www.williams-syndrome.org/canyon-region",
+  "facebook": "https://www.facebook.com/groups/106937949331328",
+  "adr": {
+    "country-name": "USA"
+  },
+  "location" : [ 33.51, -116.36 ]
+}, {
+  "category": "association",
+  "org": "WSA Great Lakes Region",
+  "note": "Michigan, Indiana, Kentucky, Ohio",
+  "url": "http://www.williams-syndrome.org/great-lakes-region",
+  "facebook": "https://www.facebook.com/groups/143711483297",
+  "adr": {
+    "country-name": "USA"
+  },
+  "location" : [ 40.15, -84.82 ]
+}, {
+  "category": "association",
+  "org": "WSA Great Plains Region",
+  "note": "Wyoming, S. Idaho, Utah, E. Montana",
+  "url": "http://www.williams-syndrome.org/great-plains-region",
+  "facebook": "https://www.facebook.com/home.php?sk=group_174379425909954",
+  "adr": {
+    "country-name": "USA"
+  },
+  "location" : [ 43.25, -110.75 ]
+}, {
+  "category": "association",
+  "org": "WSA Gulf Coast Region",
+  "note": "Louisiana, Mississippi, Alabama, FL panhandle",
+  "url": "http://www.williams-syndrome.org/gulf-coast",
+  "facebook": "https://www.facebook.com/groups/106892179350417/",
+  "adr": {
+    "country-name": "USA"
+  },
+  "location" : [ 32.92, -88.36 ]
+}, {
+  "category": "association",
+  "org": "WSA Heartland Region",
+  "note": "Nebraska, Kansas, Missouri, Southern Illinois",
+  "url": "http://www.williams-syndrome.org/heartland-region",
+  "facebook": "http://www.facebook.com/group.php?gid=97359909874",
+  "adr": {
+    "country-name": "USA"
+  },
+  "location" : [ 38.71, -92.90 ]
+}, {
+  "category": "association",
+  "org": "WSA Mid-Atlantic Region",
+  "note": "Maryland, Washington DC, Virginia, West Virginia, N. Carolina",
+  "url": "http://www.williams-syndrome.org/mid-atlantic-region",
+  "facebook": "http://www.facebook.com/group.php?gid=26906825940",
+  "adr": {
+    "country-name": "USA"
+  },
+  "location" : [ 37.66, -78.56 ]
+}, {
+  "category": "association",
+  "org": "WSA Midwest Region",
+  "note": "Wisconsin, Iowa, Illinois",
+  "url": "http://www.williams-syndrome.org/midwest-region",
+  "facebook": "http://www.facebook.com/group.php?gid=211387869421",
+  "adr": {
+    "country-name": "USA"
+  },
+  "location" : [ 42.52, -89.78 ]
+}, {
+  "category": "association",
+  "org": "WSA New England Region",
+  "note": "Maine, Vermont, New Hampshire, Massachusetts, Connecticut",
+  "url": "http://www.williams-syndrome.org/new-england-region",
+  "facebook": "https://www.facebook.com/home.php?sk=group_174260715949308",
+  "adr": {
+    "country-name": "USA"
+  },
+  "location" : [ 43.94, -71.23 ]
+}, {
+  "category": "association",
+  "org": "WSA Northwest Region",
+  "note": "Alaska, Washington, Oregon, W. Montana, N. Idaho",
+  "url": "http://www.williams-syndrome.org/northwest-region",
+  "facebook": "https://www.facebook.com/groups/358672209868",
+  "adr": {
+    "country-name": "USA"
+  },
+  "location" : [ 46.54, -119.50 ]
+}, {
+  "category": "association",
+  "org": "WSA Rocky Mountain Region",
+  "note": "Colorado, New Mexico",
+  "url": "http://www.williams-syndrome.org/rocky-mountain-region",
+  "facebook": "http://www.facebook.com/group.php?gid=347469490628",
+  "adr": {
+    "country-name": "USA"
+  },
+  "location" : [ 36.86, -106.14 ]
+}, {
+  "category": "association",
+  "org": "WSA Sierra Region",
+  "note": "California, Nevada",
+  "url": "http://www.williams-syndrome.org/sierra-region",
+  "facebook": "http://www.facebook.com/group.php?gid=106243889415620",
+  "adr": {
+    "country-name": "USA"
+  },
+  "location" : [ 38.25, -118.97 ]
+}, {
+  "category": "association",
+  "org": "WSA South Central Region",
+  "note": "Oklahoma, Arkansas, N. Texas",
+  "url": "http://www.williams-syndrome.org/south-central-region",
+  "facebook": "http://www.facebook.com/group.php?gid=113595795333549",
+  "adr": {
+    "country-name": "USA"
+  },
+  "location" : [ 34.25, -96.34 ]
+}, {
+  "category": "association",
+  "org": "WSA South Texas Region",
+  "note": "S. Texas, Louisiana",
+  "url": "http://www.williams-syndrome.org/south-texas-region",
+  "facebook": "http://www.facebook.com/groups/414290548635128",
+  "adr": {
+    "country-name": "USA"
+  },
+  "location" : [ 31.41, -97.88 ]
+}, {
+  "category": "association",
+  "org": "WSA Southeast Region",
+  "note": "Tennessee, Mississippi, Alabama, Georgia, South Carolina",
+  "url": "http://www.williams-syndrome.org/southeast-region",
+  "facebook": "https://www.facebook.com/home.php?sk=group_160292077343201",
+  "adr": {
+    "country-name": "USA"
+  },
+  "location" : [ 33.13, -84.69 ]
+}, {
+  "category": "association",
+  "org": "WSA Sunshine Region",
+  "note": "Florida",
+  "url": "http://www.williams-syndrome.org/sunshine-region",
+  "facebook": "http://www.facebook.com/group.php?gid=348248373542",
+  "adr": {
+    "country-name": "USA"
+  },
+  "location" : [ 28.17, -81.49 ]
+}, {
+  "category": "association",
+  "org": "WSA Tri-State Region",
+  "note": "Pennsylvania, New Jersey, New York",
+  "url": "http://www.williams-syndrome.org/tri-state-region",
+  "facebook": "https://www.facebook.com/groups/348248373542#!/home.php?sk=group_220927527918393",
+  "adr": {
+    "country-name": "USA"
+  },
+  "location" : [ 40.56, -75.23 ]
+}, {
+  "category": "association",
+  "org": "WSA Upper Midwest Region",
+  "note": "Minnesota, North Dakota, South Dakota",
+  "url": "http://www.williams-syndrome.org/upper-midwest-region",
+  "facebook": "http://www.facebook.com/group.php?gid=382191260238",
+  "adr": {
+    "country-name": "USA"
+  },
+  "location" : [ 45.97, -97.31 ]
 }]

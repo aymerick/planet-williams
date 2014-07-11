@@ -1,0 +1,23 @@
+{
+  "category": "association",
+  "org": "",
+  "title": "",
+  "note": "",
+  "photo": "",
+  "url": "",
+  "facebook": "",
+  "twitter": "",
+  "google+": "",
+  "youtube": "",
+  "email": "",
+  "tel": "",
+  "adr": {
+    "contact": "",
+    "street-address": "",
+    "postal-code": "",
+    "locality": "",
+    "region": "",
+    "country-name": ""
+  },
+  "location" : [ , ]
+}
