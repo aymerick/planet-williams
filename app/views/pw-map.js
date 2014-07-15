@@ -34,17 +34,17 @@ var MarkerCollectionLayer = EmberLeaflet.MarkerCollectionLayer.extend({
 
 export default EmberLeaflet.MapView.extend({
   center: L.latLng(37.76, -3.79),
-  zoom: 2,
+  zoom: 3,
   options: {
     maxZoom: 18,
     minZoom: 2
   },
-  childLayers: [ TileLayer, MarkerCollectionLayer ]
+  childLayers: [ TileLayer, MarkerCollectionLayer ],
 
-  // @todo https://github.com/domoritz/leaflet-locatecontrol
-  //
-  // didCreateLayer: function() {
-  //   this._super();
-  //   L.control.locate().addTo(this._layer);
-  // }
+  didCreateLayer: function() {
+    this._super();
+    L.control.locate({ locateOptions: {
+      maxZoom: 8
+    }}).addTo(this._layer);
+  }
 });

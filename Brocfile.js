@@ -34,7 +34,20 @@ var extraLeafletAssets = pickFiles('vendor/leaflet-dist', {
   destDir: '/'
 });
 
+// leaflet-locatecontrol
+app.import('vendor/leaflet-locatecontrol/src/L.Control.Locate.css');
+app.import('vendor/leaflet-locatecontrol/src/font/locate-fa.eot');
+app.import('vendor/leaflet-locatecontrol/src/css/locate-fa.css');
+app.import('vendor/leaflet-locatecontrol/src/css/animation.css');
+app.import('vendor/leaflet-locatecontrol/src/L.Control.Locate.js');
+
+var extraLeafletLocateControlAssets = pickFiles('vendor/leaflet-locatecontrol/src', {
+  srcDir: '/',
+  files: ['font/*.eot', 'font/*.svg', 'font/*.ttf', 'font/*.woff'],
+  destDir: '/'
+});
+
 // ember-leaflet
 app.import('vendor/ember-leaflet/dist/ember-leaflet.js');
 
-module.exports = mergeTrees([app.toTree(), extraLeafletAssets]);
+module.exports = mergeTrees([app.toTree(), extraLeafletAssets, extraLeafletLocateControlAssets]);
