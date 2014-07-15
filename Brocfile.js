@@ -34,6 +34,11 @@ var extraLeafletAssets = pickFiles('vendor/leaflet-dist', {
   destDir: '/'
 });
 
+// leaflet.markercluster
+app.import('vendor/leaflet.markercluster/dist/MarkerCluster.css');
+app.import('vendor/leaflet.markercluster/dist/MarkerCluster.Default.css');
+app.import('vendor/leaflet.markercluster/dist/leaflet.markercluster-src.js');
+
 // leaflet-locatecontrol
 app.import('vendor/leaflet-locatecontrol/src/L.Control.Locate.css');
 app.import('vendor/leaflet-locatecontrol/src/font/locate-fa.eot');

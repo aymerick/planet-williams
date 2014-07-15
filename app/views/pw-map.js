@@ -32,6 +32,13 @@ var MarkerCollectionLayer = EmberLeaflet.MarkerCollectionLayer.extend({
   itemLayerClass: MarkerLayer
 });
 
+var MarkerClusterLayer = EmberLeaflet.ContainerLayer.extend({
+  childLayers: [ MarkerCollectionLayer ],
+  _newLayer: function() {
+    return new L.MarkerClusterGroup({ spiderfyOnMaxZoom: false, showCoverageOnHover: false, maxClusterRadius: 10 });
+  }
+});
+
 export default EmberLeaflet.MapView.extend({
   center: L.latLng(37.76, -3.79),
   zoom: 3,
@@ -39,7 +46,7 @@ export default EmberLeaflet.MapView.extend({
     maxZoom: 18,
     minZoom: 2
   },
-  childLayers: [ TileLayer, MarkerCollectionLayer ],
+  childLayers: [ TileLayer, MarkerClusterLayer ],
 
   didCreateLayer: function() {
     this._super();
