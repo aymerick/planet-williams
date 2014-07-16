@@ -32,21 +32,23 @@ var MarkerCollectionLayer = EmberLeaflet.MarkerCollectionLayer.extend({
   itemLayerClass: MarkerLayer
 });
 
-var MarkerClusterLayer = EmberLeaflet.ContainerLayer.extend({
-  childLayers: [ MarkerCollectionLayer ],
-  _newLayer: function() {
-    return new L.MarkerClusterGroup({ spiderfyOnMaxZoom: false, showCoverageOnHover: false, maxClusterRadius: 10 });
-  }
-});
+// var MarkerClusterLayer = EmberLeaflet.ContainerLayer.extend({
+//   childLayers: [ MarkerCollectionLayer ],
+//   _newLayer: function() {
+//     return new L.MarkerClusterGroup({ spiderfyOnMaxZoom: false, showCoverageOnHover: false, maxClusterRadius: 10 });
+//   }
+// });
 
 export default EmberLeaflet.MapView.extend({
+  // childLayers: [ TileLayer, MarkerClusterLayer ],
+  childLayers: [ TileLayer, MarkerCollectionLayer ],
+
   center: L.latLng(37.76, -3.79),
   zoom: 3,
   options: {
     maxZoom: 18,
     minZoom: 2
   },
-  childLayers: [ TileLayer, MarkerClusterLayer ],
 
   didCreateLayer: function() {
     this._super();
