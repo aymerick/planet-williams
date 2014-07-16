@@ -53,8 +53,9 @@ html, body {
   top: $navbar-height;
   bottom: 0;
   right: 0;
-  
+
   width: $map-legend-width;
+  overflow-y: auto;
 
   padding: 20px;
 }
