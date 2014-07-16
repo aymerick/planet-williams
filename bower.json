@@ -14,8 +14,7 @@
     "ember-cli-test-loader": "rjackson/ember-cli-test-loader#0.0.2",
     "bootstrap": "~3.2.0",
     "ember-leaflet": "gabesmed/ember-leaflet#master",
-    "leaflet-locatecontrol": "~0.28.0",
-    "leaflet.markercluster": "~0.4.0"
+    "leaflet-locatecontrol": "~0.28.0"
   },
   "version": "0.0.0",
   "homepage": "https://github.com/aymerick/planet-williams",
