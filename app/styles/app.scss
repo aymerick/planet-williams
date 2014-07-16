@@ -1,0 +1,60 @@
+$navbar-height: 50px;
+$map-legend-width: 250px;
+
+html, body {
+  margin: 0px;
+}
+
+/**
+ * index
+ */
+
+#map {
+  position: absolute;
+  top: $navbar-height;
+  bottom: 0;
+  left: 0;
+  right: $map-legend-width;
+
+  .popup-custom-view {
+    font-size: 14px;
+  }
+
+  .popup-photo {
+    max-width: 50px !important;
+    float: left;
+    margin-right: 10px;
+  }
+
+  .popup-title {
+    font-size: 16px;
+  }
+
+  .popup-desc {
+    font-size: 12px;
+    margin-top: 15px;
+  }
+
+  .popup-country {
+    font-weight: bold;
+  }
+
+  .popup-url,
+  .popup-facebook,
+  .popup-twitter,
+  .popup-google
+  {
+    display: block;
+  }
+}
+
+#legend {
+  position: absolute;
+  top: $navbar-height;
+  bottom: 0;
+  right: 0;
+  
+  width: $map-legend-width;
+
+  padding: 20px;
+}
