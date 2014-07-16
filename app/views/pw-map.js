@@ -11,7 +11,7 @@ var TileLayer = EmberLeaflet.TileLayer.extend({
 });
 
 var PopupViewClass = Ember.View.extend({
-  templateName: 'views/popup'
+  templateName: 'views/pw-map-popup'
 });
 
 var MarkerLayer = EmberLeaflet.MarkerLayer.extend(
