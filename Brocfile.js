@@ -24,6 +24,12 @@ var app = new EmberApp();
 app.import('vendor/bootstrap/dist/css/bootstrap.css');
 app.import('vendor/bootstrap/dist/js/bootstrap.js');
 
+var extraBootstrapAssets = pickFiles('vendor/bootstrap/dist/fonts',{
+    srcDir: '/',
+    files: ['**/*'],
+    destDir: '/fonts'
+});
+
 // leaflet
 app.import('vendor/leaflet-dist/leaflet.css');
 app.import('vendor/leaflet-dist/leaflet.js');
@@ -50,4 +56,8 @@ var extraLeafletLocateControlAssets = pickFiles('vendor/leaflet-locatecontrol/sr
 // ember-leaflet
 app.import('vendor/ember-leaflet/dist/ember-leaflet.js');
 
-module.exports = mergeTrees([app.toTree(), extraLeafletAssets, extraLeafletLocateControlAssets]);
+// ember-i18n
+app.import('vendor/cldr/plurals.js');
+app.import('vendor/ember-i18n/lib/i18n.js');
+
+module.exports = mergeTrees([app.toTree(), extraBootstrapAssets, extraLeafletAssets, extraLeafletLocateControlAssets]);
