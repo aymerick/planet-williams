@@ -20,7 +20,7 @@ html, body {
   left: 0;
   right: $map-legend-width;
 
-  @media (max-width: $iphone-max-width) {
+  @media (max-device-width: $iphone-max-width) {
     right: 0;
     bottom: $small-map-legend-height;
   }
@@ -64,7 +64,7 @@ html, body {
   right: 0;
   width: $map-legend-width;
 
-  @media (max-width: $iphone-max-width) {
+  @media (max-device-width: $iphone-max-width) {
     left: 0px;
     width: 100%;
     top: auto;
