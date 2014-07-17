@@ -20,8 +20,8 @@ var MarkerLayer = EmberLeaflet.MarkerLayer.extend(
     locationBinding: 'content.location',
     popupOptions: {
       'closeButton': false,
-      'minWidth': '300',
-      'maxWidth': '300',
+      'minWidth': '250',
+      'maxWidth': '250',
       'offset': L.point(0, -36)
     }
   }

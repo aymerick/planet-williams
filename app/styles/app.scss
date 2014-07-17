@@ -1,5 +1,9 @@
 $navbar-height: 50px;
+
 $map-legend-width: 250px;
+$small-map-legend-height: 200px;
+
+$iphone-max-width: 568px;
 
 html, body {
   margin: 0px;
@@ -15,6 +19,11 @@ html, body {
   bottom: 0;
   left: 0;
   right: $map-legend-width;
+
+  @media (max-width: $iphone-max-width) {
+    right: 0;
+    bottom: $small-map-legend-height;
+  }
 
   .popup-custom-view {
     font-size: 14px;
@@ -53,8 +62,15 @@ html, body {
   top: $navbar-height;
   bottom: 0;
   right: 0;
-
   width: $map-legend-width;
+
+  @media (max-width: $iphone-max-width) {
+    left: 0px;
+    width: 100%;
+    top: auto;
+    height: $small-map-legend-height;
+  }
+
   overflow-y: auto;
 
   .legendItem {
