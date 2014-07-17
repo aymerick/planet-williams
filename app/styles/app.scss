@@ -58,13 +58,21 @@ html, body {
   overflow-y: auto;
 
   .legendItem {
-    border-top: 1px solid #e7e7e7;;
+    border-top: 1px solid #e7e7e7;
     padding: 5px 10px;
     cursor: pointer;
 
     &:hover {
-      background-color: #555;
-      color: #eee;
+      background-color: #e7e7e7;
+    }
+
+    .legendItemCountry {
+      font-weight: bold;
+      font-size: 16px;
+      color: #0078A8;
+    }
+
+    .legendItemTitle {
     }
   }
 }

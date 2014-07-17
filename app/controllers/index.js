@@ -1,0 +1,3 @@
+export default Ember.ArrayController.extend({
+  sortProperties: [ 'adr.country-name', 'displayTitle' ]
+});

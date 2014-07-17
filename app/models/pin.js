@@ -1,11 +1,11 @@
 import Ember from 'ember';
 
 var Pin = Ember.Object.extend({
-  popupTitle: function() {
+  displayTitle: function() {
     return this.get('title') || this.get('org');
   }.property('title', 'org'),
 
-  popupDescription: function() {
+  displayDescription: function() {
     if (Ember.isNone(this.get('title'))) {
       return this.get('note');
     } else {
