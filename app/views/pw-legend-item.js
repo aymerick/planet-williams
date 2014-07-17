@@ -2,6 +2,7 @@ import Ember from 'ember';
 
 export default Ember.View.extend({
   templateName: "views/pw-legend-item",
+  classNames: [ "legendItem" ],
 
   legendView: function() {
     return this.get('parentView');
