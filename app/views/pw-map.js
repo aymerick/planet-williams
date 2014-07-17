@@ -40,6 +40,7 @@ var MarkerCollectionLayer = EmberLeaflet.MarkerCollectionLayer.extend({
 // });
 
 export default EmberLeaflet.MapView.extend({
+  viewName: 'mapView',
   // childLayers: [ TileLayer, MarkerClusterLayer ],
   childLayers: [ TileLayer, MarkerCollectionLayer ],
 
