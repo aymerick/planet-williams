@@ -13,7 +13,12 @@
 
     <div class="collapse navbar-collapse" id="navbar-collapse-1">
       <ul class="nav navbar-nav pull-right">
-        <li>{{#link-to 'about'}}About{{/link-to}}</a></li>
+        <li>{{#link-to 'about'}}{{t "base.about"}}{{/link-to}}</a></li>
+        <li>
+          <form class="navbar-form">
+            {{view Ember.Select content=langs optionValuePath="content.id" optionLabelPath="content.name" value=currentLang classNames="form-control"}}
+          </form>
+        </li>
       </ul>
     </div>
   </div>

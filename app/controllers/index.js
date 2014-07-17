@@ -1,5 +1,5 @@
 import Ember from 'ember';
 
 export default Ember.ArrayController.extend({
-  sortProperties: [ 'adr.country-name', 'displayTitle' ]
+  sortProperties: [ 'displayCountry', 'displayTitle' ]
 });

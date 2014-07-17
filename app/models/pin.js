@@ -11,7 +11,11 @@ var Pin = Ember.Object.extend({
     } else {
       return this.get('org');
     }
-  }.property('note')
+  }.property('note'),
+
+  displayCountry: function() {
+    return Ember.I18n.t("country." + this.get('adr.country-name'));
+  }.property('adr.country-name')
 });
 
 Pin.reopenClass({

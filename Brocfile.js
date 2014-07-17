@@ -4,6 +4,7 @@ var EmberApp = require('ember-cli/lib/broccoli/ember-app');
 
 var mergeTrees = require('broccoli-merge-trees');
 var pickFiles  = require('broccoli-static-compiler');
+var emberI18nPrecompile = require('broccoli-ember-i18n-precompile');
 
 var app = new EmberApp();
 
@@ -20,14 +21,17 @@ var app = new EmberApp();
 // please specify an object with the list of modules as keys
 // along with the exports of each module as its value.
 
+// precompile I18n files
+var appTranslations = emberI18nPrecompile("app/translations", { outputFolder: 'locale' });
+
 // bootstrap
 app.import('vendor/bootstrap/dist/css/bootstrap.css');
 app.import('vendor/bootstrap/dist/js/bootstrap.js');
 
-var extraBootstrapAssets = pickFiles('vendor/bootstrap/dist/fonts',{
-    srcDir: '/',
-    files: ['**/*'],
-    destDir: '/fonts'
+var extraBootstrapAssets = pickFiles('vendor/bootstrap/dist/fonts', {
+  srcDir: '/',
+  files: ['**/*'],
+  destDir: '/fonts'
 });
 
 // leaflet
@@ -42,7 +46,6 @@ var extraLeafletAssets = pickFiles('vendor/leaflet-dist', {
 
 // leaflet-locatecontrol
 app.import('vendor/leaflet-locatecontrol/src/L.Control.Locate.css');
-app.import('vendor/leaflet-locatecontrol/src/font/locate-fa.eot');
 app.import('vendor/leaflet-locatecontrol/src/css/locate-fa.css');
 app.import('vendor/leaflet-locatecontrol/src/css/animation.css');
 app.import('vendor/leaflet-locatecontrol/src/L.Control.Locate.js');
@@ -60,4 +63,10 @@ app.import('vendor/ember-leaflet/dist/ember-leaflet.js');
 app.import('vendor/cldr/plurals.js');
 app.import('vendor/ember-i18n/lib/i18n.js');
 
-module.exports = mergeTrees([app.toTree(), extraBootstrapAssets, extraLeafletAssets, extraLeafletLocateControlAssets]);
+module.exports = mergeTrees([
+  appTranslations,
+  app.toTree(),
+  extraBootstrapAssets,
+  extraLeafletAssets,
+  extraLeafletLocateControlAssets
+]);
