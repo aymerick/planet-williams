@@ -15,7 +15,12 @@ var Pin = Ember.Object.extend({
 
   displayCountry: function() {
     return Ember.I18n.t("country." + this.get('adr.country-name'));
-  }.property('adr.country-name')
+  }.property('adr.country-name'),
+
+  // Google Analytics event label
+  gaEventLabel: function() {
+    return this.get('adr.country-name') + " - " + this.get('displayTitle');
+  }.property('adr.country-name', 'displayTitle')
 });
 
 Pin.reopenClass({

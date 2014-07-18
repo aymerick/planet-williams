@@ -23,6 +23,11 @@ var MarkerLayer = EmberLeaflet.MarkerLayer.extend(
       'minWidth': '200',
       'maxWidth': '200',
       'offset': L.point(0, -36)
+    },
+
+    didOpenPopup: function() {
+      // track event
+      this.container.lookup('router:main').notifyGoogleAnalyticsEvent('map', 'openPopup', this.content.get('gaEventLabel'));
     }
   }
 );
