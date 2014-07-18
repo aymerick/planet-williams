@@ -1,4 +1,30 @@
 define("translations/fr",["exports"],function(e){"use strict"; var t = Handlebars.template; var o = {
+  "about": {
+    "goal": t(function (Handlebars,depth0,helpers,partials,data) {
+  this.compilerInfo = [4,'>= 1.0.0'];
+helpers = this.merge(helpers, Handlebars.helpers); data = data || {};
+  
+
+
+  return "Le but de ce site est de répertorier toutes les associations liées au Syndrome de Williams dans le monde entier.";
+  }),
+    "built by": t(function (Handlebars,depth0,helpers,partials,data) {
+  this.compilerInfo = [4,'>= 1.0.0'];
+helpers = this.merge(helpers, Handlebars.helpers); data = data || {};
+  
+
+
+  return "Fait par <a href='https://twitter.com/aymerick''>@aymerick</a>, père d'un petit garçon porteur du Williams Syndrome.";
+  }),
+    "source code": t(function (Handlebars,depth0,helpers,partials,data) {
+  this.compilerInfo = [4,'>= 1.0.0'];
+helpers = this.merge(helpers, Handlebars.helpers); data = data || {};
+  
+
+
+  return "Le code source est disponible <a href='https://github.com/aymerick/planet-williams'>sur github</a>.";
+  })
+  },
   "base": {
     "about": t(function (Handlebars,depth0,helpers,partials,data) {
   this.compilerInfo = [4,'>= 1.0.0'];

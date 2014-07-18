@@ -1,4 +1,30 @@
 define("translations/en",["exports"],function(e){"use strict"; var t = Handlebars.template; var o = {
+  "about": {
+    "goal": t(function (Handlebars,depth0,helpers,partials,data) {
+  this.compilerInfo = [4,'>= 1.0.0'];
+helpers = this.merge(helpers, Handlebars.helpers); data = data || {};
+  
+
+
+  return "Listing all Williams Syndrome associations around the world.";
+  }),
+    "built by": t(function (Handlebars,depth0,helpers,partials,data) {
+  this.compilerInfo = [4,'>= 1.0.0'];
+helpers = this.merge(helpers, Handlebars.helpers); data = data || {};
+  
+
+
+  return "Built by <a href='https://twitter.com/aymerick''>@aymerick</a>, father of a little boy with Williams Syndrome.";
+  }),
+    "source code": t(function (Handlebars,depth0,helpers,partials,data) {
+  this.compilerInfo = [4,'>= 1.0.0'];
+helpers = this.merge(helpers, Handlebars.helpers); data = data || {};
+  
+
+
+  return "Source code is available <a href='https://github.com/aymerick/planet-williams'>on github</a>.";
+  })
+  },
   "base": {
     "about": t(function (Handlebars,depth0,helpers,partials,data) {
   this.compilerInfo = [4,'>= 1.0.0'];
