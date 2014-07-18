@@ -9,6 +9,30 @@ html, body {
   margin: 0px;
 }
 
+.glyphicon-new-window {
+  font-size: smaller;
+}
+
+/**
+ * navbar
+ */
+
+.navbar>.container-fluid {
+  .navbar-header {
+    position: relative;
+
+    .logo {
+      position: absolute;
+      left: 3px;
+      top: 3px;
+    }
+
+    .navbar-brand {
+      margin-left: 40px;
+    }
+  }
+}
+
 /**
  * index
  */

@@ -8,12 +8,13 @@
         <span class="icon-bar"></span>
       </button>
 
-      {{#link-to 'index' class='navbar-brand'}}Planet Williams{{/link-to}}
+      {{#link-to 'index' class='navbar-brand'}}<img class="logo" src="/images/badge.png" alt="Planet Williams" /> Planet Williams{{/link-to}}
     </div>
 
     <div class="collapse navbar-collapse" id="navbar-collapse-1">
       <ul class="nav navbar-nav pull-right">
         <li>{{#link-to 'about'}}{{t "base.about"}}{{/link-to}}</a></li>
+        <li><a href='https://www.facebook.com/planetwilliamssyndrome' target='_blank'>Facebook <span class="glyphicon glyphicon-new-window"></span></a></li>
         <li>
           <form class="navbar-form">
             {{view Ember.Select content=langs optionValuePath="content.id" optionLabelPath="content.name" value=currentLang classNames="form-control"}}

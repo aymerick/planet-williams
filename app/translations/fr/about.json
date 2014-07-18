@@ -1,5 +1,6 @@
 {
   "goal": "Le but de ce site est de répertorier toutes les associations liées au Syndrome de Williams dans le monde entier.",
-  "built by": "Fait par <a href='https://twitter.com/aymerick''>@aymerick</a>, père d'un petit garçon porteur du Williams Syndrome.",
-  "source code": "Le code source est disponible <a href='https://github.com/aymerick/planet-williams'>sur github</a>."
+  "built by": "Fait par <a href='https://twitter.com/aymerick' target='_blank'>@aymerick</a>, père d'un petit garçon porteur du Williams Syndrome.",
+  "facebook": "Retrouvez nous sur <a href='https://www.facebook.com/planetwilliamssyndrome' target='_blank'>Facebook</a>.",
+  "source code": "Le code source est disponible <a href='https://github.com/aymerick/planet-williams' target='_blank'>sur github</a>."
 }
