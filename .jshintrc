@@ -3,6 +3,7 @@
     "document": true,
     "window": true,
     "PlanetWilliamsENV": true,
+    "PlanetWilliams": true,
     "EmberLeaflet": true,
     "L": true
   },

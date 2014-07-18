@@ -1,10 +1,7 @@
 import Ember from 'ember';
 
 export default Ember.ObjectController.extend({
-  langs: [
-    { id: "en", name: "English" },
-    { id: "fr", name: "Français" }
-  ],
+  langs: PlanetWilliams.SUPPORTED_LANGS,
 
   currentLang: function() {
     return localStorage.lang || 'en';
