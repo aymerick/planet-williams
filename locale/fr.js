@@ -24,13 +24,21 @@ helpers = this.merge(helpers, Handlebars.helpers); data = data || {};
 
   return "Retrouvez nous sur <a href='https://www.facebook.com/planetwilliamssyndrome' target='_blank'>Facebook</a>.";
   }),
+    "contact": t(function (Handlebars,depth0,helpers,partials,data) {
+  this.compilerInfo = [4,'>= 1.0.0'];
+helpers = this.merge(helpers, Handlebars.helpers); data = data || {};
+  
+
+
+  return "Si vous souhaitez ajouter votre association, envoyez moi un email à <a href='mailto:contact@planet-williams.org'>contact@planet-williams.org</a>.";
+  }),
     "source code": t(function (Handlebars,depth0,helpers,partials,data) {
   this.compilerInfo = [4,'>= 1.0.0'];
 helpers = this.merge(helpers, Handlebars.helpers); data = data || {};
   
 
 
-  return "Le code source est disponible <a href='https://github.com/aymerick/planet-williams' target='_blank'>sur github</a>.";
+  return "Le code source de ce site est disponible <a href='https://github.com/aymerick/planet-williams' target='_blank'>sur github</a>.";
   })
   },
   "base": {
