@@ -14,7 +14,15 @@ helpers = this.merge(helpers, Handlebars.helpers); data = data || {};
   
 
 
-  return "Fait par <a href='https://twitter.com/aymerick''>@aymerick</a>, père d'un petit garçon porteur du Williams Syndrome.";
+  return "Fait par <a href='https://twitter.com/aymerick' target='_blank'>@aymerick</a>, père d'un petit garçon porteur du Williams Syndrome.";
+  }),
+    "facebook": t(function (Handlebars,depth0,helpers,partials,data) {
+  this.compilerInfo = [4,'>= 1.0.0'];
+helpers = this.merge(helpers, Handlebars.helpers); data = data || {};
+  
+
+
+  return "Retrouvez nous sur <a href='https://www.facebook.com/planetwilliamssyndrome' target='_blank'>Facebook</a>.";
   }),
     "source code": t(function (Handlebars,depth0,helpers,partials,data) {
   this.compilerInfo = [4,'>= 1.0.0'];
@@ -22,7 +30,7 @@ helpers = this.merge(helpers, Handlebars.helpers); data = data || {};
   
 
 
-  return "Le code source est disponible <a href='https://github.com/aymerick/planet-williams'>sur github</a>.";
+  return "Le code source est disponible <a href='https://github.com/aymerick/planet-williams' target='_blank'>sur github</a>.";
   })
   },
   "base": {
