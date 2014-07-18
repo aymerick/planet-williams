@@ -14,7 +14,7 @@ helpers = this.merge(helpers, Handlebars.helpers); data = data || {};
   
 
 
-  return "Fait par <a href='https://twitter.com/aymerick' target='_blank'>@aymerick</a>, père d'un petit garçon porteur du Williams Syndrome.";
+  return "Fait par <a href='https://twitter.com/aymerick' target='_blank'>@aymerick</a>, père d'un petit garçon porteur du Syndrome de Williams.";
   }),
     "facebook": t(function (Handlebars,depth0,helpers,partials,data) {
   this.compilerInfo = [4,'>= 1.0.0'];
