@@ -6,7 +6,7 @@ helpers = this.merge(helpers, Handlebars.helpers); data = data || {};
   
 
 
-  return "Le but de ce site est de répertorier toutes les associations liées au Syndrome de Williams dans le monde entier.";
+  return "Le but de ce site est de répertorier toutes les associations liées au <a href='http://fr.wikipedia.org/wiki/Syndrome_de_Williams' target='_blank'>Syndrome de Williams</a> dans le monde entier.";
   }),
     "built by": t(function (Handlebars,depth0,helpers,partials,data) {
   this.compilerInfo = [4,'>= 1.0.0'];

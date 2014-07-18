@@ -6,7 +6,7 @@ helpers = this.merge(helpers, Handlebars.helpers); data = data || {};
   
 
 
-  return "The purpose of Planet Williams is to make a list of all the associations related to Williams Syndrome.";
+  return "The purpose of Planet Williams is to make a list of all the associations related to <a href='http://en.wikipedia.org/wiki/Williams_syndrome' target='_blank'>Williams Syndrome</a>.";
   }),
     "built by": t(function (Handlebars,depth0,helpers,partials,data) {
   this.compilerInfo = [4,'>= 1.0.0'];
