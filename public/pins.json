@@ -892,4 +892,14 @@
     "country-name": "USA"
   },
   "location" : [ 45.97, -97.31 ]
+}, {
+  "category": "research",
+  "org": "North East Williams Syndrome Research Group",
+  "url": "https://www.dur.ac.uk/psychology/research/newilliamssyndrome/",
+  "facebook": "https://www.facebook.com/NWSResearchGroup",
+  "adr": {
+    "locality": "Durham",
+    "country-name": "United Kingdom"
+  },
+  "location" : [ 54.768234, -1.572263 ]
 }]
