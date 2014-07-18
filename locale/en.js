@@ -6,7 +6,7 @@ helpers = this.merge(helpers, Handlebars.helpers); data = data || {};
   
 
 
-  return "Listing all Williams Syndrome associations around the world.";
+  return "The purpose of Planet Williams is to make a list of all the associations related to Williams Syndrome.";
   }),
     "built by": t(function (Handlebars,depth0,helpers,partials,data) {
   this.compilerInfo = [4,'>= 1.0.0'];
