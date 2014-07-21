@@ -1,7 +1,7 @@
 {
   "goal": "The purpose of Planet Williams is to make a list of all the associations related to <a href='http://en.wikipedia.org/wiki/Williams_syndrome' target='_blank'>Williams Syndrome</a>.",
   "built by": "Built by <a href='https://twitter.com/aymerick' target='_blank'>@aymerick</a>, father of a little boy with Williams Syndrome.",
-  "facebook": "Join us on <a href='https://www.facebook.com/planetwilliamssyndrome' target='_blank'>Facebook</a>.",
+  "social": "Join us on <a href='https://www.facebook.com/planetwilliamssyndrome' target='_blank'>Facebook</a>, <a href='https://twitter.com/PlanetWilliams_' target='_blank'>Twitter</a> and <a href='https://plus.google.com/118281257723874358279' target='_blank'>Google+</a>.",
   "contact": "If you want your association to be added to the list, please send me an email at <a href='mailto:contact@planet-williams.org'>contact@planet-williams.org</a>.",
   "source code": "Source code of that website is available <a href='https://github.com/aymerick/planet-williams' target='_blank'>on github</a>."
 }
