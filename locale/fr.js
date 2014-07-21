@@ -16,13 +16,13 @@ helpers = this.merge(helpers, Handlebars.helpers); data = data || {};
 
   return "Fait par <a href='https://twitter.com/aymerick' target='_blank'>@aymerick</a>, père d'un petit garçon porteur du Syndrome de Williams.";
   }),
-    "facebook": t(function (Handlebars,depth0,helpers,partials,data) {
+    "social": t(function (Handlebars,depth0,helpers,partials,data) {
   this.compilerInfo = [4,'>= 1.0.0'];
 helpers = this.merge(helpers, Handlebars.helpers); data = data || {};
   
 
 
-  return "Retrouvez nous sur <a href='https://www.facebook.com/planetwilliamssyndrome' target='_blank'>Facebook</a>.";
+  return "Retrouvez nous sur <a href='https://www.facebook.com/planetwilliamssyndrome' target='_blank'>Facebook</a>, <a href='https://twitter.com/PlanetWilliams_' target='_blank'>Twitter</a> et <a href='https://plus.google.com/118281257723874358279' target='_blank'>Google+</a>.";
   }),
     "contact": t(function (Handlebars,depth0,helpers,partials,data) {
   this.compilerInfo = [4,'>= 1.0.0'];
