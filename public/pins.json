@@ -902,4 +902,22 @@
     "country-name": "United Kingdom"
   },
   "location" : [ 54.768234, -1.572263 ]
+}, {
+  "category": "association",
+  "org": "Williams Changing Lives Foundation",
+  "photo": "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xap1/v/t1.0-1/c66.66.828.828/s160x160/563760_424155434321054_370767803_n.png?oh=a5c5d93e0c0691a8e944ce1aabbeed9d&oe=5458C982&__gda__=1414374320_e5a840f90d6e28a9c9f0a09d53ee1366",
+  "url": "http://www.wschanginglives.org",
+  "facebook": "https://www.facebook.com/WilliamsSyndromeChangingLivesFoundation",
+  "twitter": "https://twitter.com/WSChangingLives",
+  "google": "https://plus.google.com/u/0/106486727569039899159",
+  "email": "info@wschanginglives.org",
+  "tel": "727-557-7177",
+  "adr": {
+    "street-address": "PO Box 76021",
+    "postal-code": "33734",
+    "locality": "Saint Petersburg",
+    "region": "Florida",
+    "country-name": "USA"
+  },
+  "location" : [ 27.810435, -82.645673 ]
 }]
