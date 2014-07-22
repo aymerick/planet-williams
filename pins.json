@@ -920,4 +920,19 @@
     "country-name": "USA"
   },
   "location" : [ 27.810435, -82.645673 ]
+}, {
+  "category": "research",
+  "org": "Vanderbilt Kennedy Center",
+  "note": "WS Research & ACM Lifting Lives Music Camp",
+  "photo": "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xap1/t1.0-1/c12.12.155.155/534931_431437546874033_2121528331_n.jpg",
+  "url": "http://vkc.mc.vanderbilt.edu/vkc/",
+  "facebook": "https://www.facebook.com/VanderbiltWS",
+  "adr": {
+    "street-address": "One Magnolia Circle",
+    "postal-code": "37212",
+    "locality": "Nashville",
+    "region": "Tennessee",
+    "country-name": "USA"
+  },
+  "location" : [ 36.143342, -86.799441 ]
 }]
