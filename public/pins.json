@@ -935,4 +935,15 @@
     "country-name": "USA"
   },
   "location" : [ 36.143342, -86.799441 ]
+}, {
+  "category": "association",
+  "org": "Association québécoise du Syndrome de Williams",
+  "url": "http://asw-quebec.org/",
+  "facebook": "https://www.facebook.com/groups/434019193303592/",
+  "email": "coeurachanter@bellnet.ca",
+  "tel": "(1) 450 563 3574",
+  "adr": {
+    "country-name": "Québec"
+  },
+  "location" : [ 49.47, -74.50 ]
 }]
