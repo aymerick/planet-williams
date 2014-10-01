@@ -22,15 +22,13 @@
   </head>
   <body>
     <script>
-      window.PlanetWilliamsENV = {"environment":"production","baseURL":"/","locationType":"hash","EmberENV":{"FEATURES":{}},"APP":{"SUPPORTED_LANGS":[{"id":"en","name":"English"},{"id":"fr","name":"Français"}]}};
-      window.EmberENV = window.PlanetWilliamsENV.EmberENV;
+      window.EmberENV = {"modulePrefix":"planet-williams","environment":"production","baseURL":"/","locationType":"hash","EmberENV":{"FEATURES":{}},"APP":{"SUPPORTED_LANGS":[{"id":"en","name":"English"},{"id":"fr","name":"Français"}]}};
     </script>
-    <script src="assets/vendor-d9c414a35984068c9ef3278c1992340c.js"></script>
-    <script src="assets/planet-williams-a132f972b3e4ed9768a8c0201a69f6c1.js"></script>
+    <script src="assets/vendor-94a1c343f2efc4d4dc11fd1517ae5593.js"></script>
+    <script src="assets/planet-williams-6ed88cb49a84c3c45c11d2040f2ec306.js"></script>
     <script>
-      window.PlanetWilliams = require('planet-williams/app')['default'].create(PlanetWilliamsENV.APP);
+      window.PlanetWilliams = require('planet-williams/app')['default'].create({"SUPPORTED_LANGS":[{"id":"en","name":"English"},{"id":"fr","name":"Français"}]});
     </script>
-
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
