@@ -25,43 +25,43 @@ var app = new EmberApp();
 var appTranslations = emberI18nPrecompile("app/translations", { outputFolder: 'locale' });
 
 // bootstrap
-app.import('vendor/bootstrap/dist/css/bootstrap.css');
-app.import('vendor/bootstrap/dist/js/bootstrap.js');
+app.import('bower_components/bootstrap/dist/css/bootstrap.css');
+app.import('bower_components/bootstrap/dist/js/bootstrap.js');
 
-var extraBootstrapAssets = pickFiles('vendor/bootstrap/dist/fonts', {
+var extraBootstrapAssets = pickFiles('bower_components/bootstrap/dist/fonts', {
   srcDir: '/',
   files: ['**/*'],
   destDir: '/fonts'
 });
 
 // leaflet
-app.import('vendor/leaflet-dist/leaflet.css');
-app.import('vendor/leaflet-dist/leaflet.js');
+app.import('bower_components/leaflet-dist/leaflet.css');
+app.import('bower_components/leaflet-dist/leaflet.js');
 
-var extraLeafletAssets = pickFiles('vendor/leaflet-dist', {
+var extraLeafletAssets = pickFiles('bower_components/leaflet-dist', {
   srcDir: '/',
   files: ['images/*.png'],
   destDir: '/'
 });
 
-// leaflet-locatecontrol
-app.import('vendor/leaflet-locatecontrol/src/L.Control.Locate.css');
-app.import('vendor/leaflet-locatecontrol/src/css/locate-fa.css');
-app.import('vendor/leaflet-locatecontrol/src/css/animation.css');
-app.import('vendor/leaflet-locatecontrol/src/L.Control.Locate.js');
+// leaflet.locatecontrol
+app.import('bower_components/leaflet.locatecontrol/src/L.Control.Locate.css');
+app.import('bower_components/leaflet.locatecontrol/src/css/locate-fa.css');
+app.import('bower_components/leaflet.locatecontrol/src/css/animation.css');
+app.import('bower_components/leaflet.locatecontrol/src/L.Control.Locate.js');
 
-var extraLeafletLocateControlAssets = pickFiles('vendor/leaflet-locatecontrol/src', {
+var extraLeafletLocateControlAssets = pickFiles('bower_components/leaflet.locatecontrol/src', {
   srcDir: '/',
   files: ['font/*.eot', 'font/*.svg', 'font/*.ttf', 'font/*.woff'],
   destDir: '/'
 });
 
 // ember-leaflet
-app.import('vendor/ember-leaflet/dist/ember-leaflet.js');
+app.import('bower_components/ember-leaflet/dist/ember-leaflet.js');
 
 // ember-i18n
-app.import('vendor/cldr/plurals.js');
-app.import('vendor/ember-i18n/lib/i18n.js');
+app.import('bower_components/cldr/plurals.js');
+app.import('bower_components/ember-i18n/lib/i18n.js');
 
 module.exports = mergeTrees([
   appTranslations,
