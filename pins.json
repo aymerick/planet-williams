@@ -946,4 +946,20 @@
     "country-name": "Québec"
   },
   "location" : [ 49.47, -74.50 ]
+}, {
+  "category": "association",
+  "org": "Williams Syndrome Family of Hope",
+  "photo": "http://www.wsfamilyofhope.org/images/d1dfe4d3f5e7bae1b7e306b389dd9ee7.png",
+  "url": "http://www.wsfamilyofhope.org",
+  "facebook": "https://www.facebook.com/pages/Williams-Syndrome-Family-of-Hope/285994588089936",
+  "twitter": "https://twitter.com/WSFamilyofHope",
+  "email": "info@wsfamilyofhope.org",
+  "adr": {
+    "street-address": "PO Box 2144",
+    "postal-code": "31793",
+    "locality": "Tifton",
+    "region": "Georgia",
+    "country-name": "USA"
+  },
+  "location" : [ 31.44, -83.51 ]
 }]
