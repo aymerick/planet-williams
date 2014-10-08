@@ -962,4 +962,12 @@
     "country-name": "USA"
   },
   "location" : [ 31.44, -83.51 ]
+}, {
+  "category": "research",
+  "org": "Williams syndrome Research Ireland - WRI",
+  "facebook": "https://www.facebook.com/pages/Williams-syndrome-Research-Ireland-WRI/339719942848358",
+  "adr": {
+    "country-name": "Ireland"
+  },
+  "location" : [ 54.63, -5.91 ]
 }]
