@@ -7,6 +7,7 @@ var Router = Ember.Router.extend({
 
 Router.map(function() {
   this.route('about');
+  this.route('weekly');
 });
 
 // Cf. http://emberjs.com/guides/cookbook/helpers_and_components/adding_google_analytics_tracking/

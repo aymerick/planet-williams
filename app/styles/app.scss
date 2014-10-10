@@ -17,6 +17,10 @@ html, body {
  * navbar
  */
 
+.navbar {
+  margin-bottom: 0px;
+}
+
 .navbar>.container-fluid {
   .navbar-header {
     position: relative;
@@ -116,5 +120,51 @@ html, body {
 
     .legendItemTitle {
     }
+  }
+}
+
+/**
+ * Weekly
+ */
+
+.weekly-title {
+  padding: 1.5em 0 1em;
+  margin-bottom: 0.8em;
+
+  background-color: #0078a8;
+  color: #ffffff;
+
+  font-family: Helvetica;
+  font-size: 40px;
+  font-weight: bold;
+
+  span.weekly {
+    background-color: #ffffff;
+    color: #2ba6cb;
+    padding: 10px;
+    font-family: Arial;
+  }
+}
+
+.weekly-content {
+  color: #454545;
+  font-size: 16px;
+  line-height: 1.5em;
+
+  h2 {
+    font-size: 24px;
+    line-height: 1.6em;
+  }
+
+  p {
+    margin-bottom: 20px;
+
+    &.unsub {
+      text-decoration: underline;
+    }
+  }
+
+  #mc_embed_signup {
+    margin: 2em 0 3em 0;
   }
 }
