@@ -13,7 +13,7 @@
     <meta property="og:type" content="website" />
     <meta property="og:image" content="http://www.planet-williams.org/images/badge-medium.png" />
 
-    {{BASE_TAG}}
+    {{content-for 'head'}}
 
     <link rel="icon" type="image/png" href="/favicon.png" />
 
@@ -21,14 +21,9 @@
     <link rel="stylesheet" href="assets/planet-williams.css">
   </head>
   <body>
-    <script>
-      window.EmberENV = {{EMBER_ENV}};
-    </script>
     <script src="assets/vendor.js"></script>
     <script src="assets/planet-williams.js"></script>
-    <script>
-      window.PlanetWilliams = require('planet-williams/app')['default'].create({{APP_CONFIG}});
-    </script>
+
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

@@ -1,3 +1,5 @@
+import ENV from 'planet-williams/config/environment';
+
 export default {
   name: 'lang',
 
@@ -8,7 +10,7 @@ export default {
       if (browserLang) {
         browserLang = browserLang.split(/\-/)[0];
 
-        if (PlanetWilliams.SUPPORTED_LANGS.mapBy('id').contains(browserLang)) {
+        if (ENV.APP.SUPPORTED_LANGS.mapBy('id').contains(browserLang)) {
           localStorage.lang = browserLang;
         }
       }

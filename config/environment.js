@@ -25,6 +25,18 @@ module.exports = function(environment) {
     }
   };
 
+  // cf. https://github.com/rwjblue/ember-cli-content-security-policy
+  ENV.contentSecurityPolicy = {
+    'default-src': "'none'",
+    'script-src': "'self' 'unsafe-eval' 'unsafe-inline' www.google-analytics.com ajax.googleapis.com",
+    'font-src': "'self'",
+    'connect-src': "'self'",
+    // 'img-src': "'self' *.mapbox.com www.google-analytics.com",
+    'img-src': "*",
+    'style-src': "'self' 'unsafe-inline'",
+    'media-src': "'self'"
+  }
+
   if (environment === 'development') {
     // ENV.APP.LOG_RESOLVER = true;
     ENV.APP.LOG_ACTIVE_GENERATION = true;

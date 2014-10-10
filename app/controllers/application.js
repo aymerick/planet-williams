@@ -1,7 +1,8 @@
 import Ember from 'ember';
+import ENV from 'planet-williams/config/environment';
 
 export default Ember.ObjectController.extend({
-  langs: PlanetWilliams.SUPPORTED_LANGS,
+  langs: ENV.APP.SUPPORTED_LANGS,
 
   currentLang: function() {
     return localStorage.lang || 'en';
