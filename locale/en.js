@@ -332,5 +332,71 @@ helpers = this.merge(helpers, Handlebars.helpers); data = data || {};
 
   return "USA";
   })
+  },
+  "weekly": {
+    "goal": t(function (Handlebars,depth0,helpers,partials,data) {
+  this.compilerInfo = [4,'>= 1.0.0'];
+helpers = this.merge(helpers, Handlebars.helpers); data = data || {};
+  
+
+
+  return "The worldwide news about Williams Syndrome, delivered directly to your inbox every week.";
+  }),
+    "subscribe": t(function (Handlebars,depth0,helpers,partials,data) {
+  this.compilerInfo = [4,'>= 1.0.0'];
+helpers = this.merge(helpers, Handlebars.helpers); data = data || {};
+  
+
+
+  return "Subscribe";
+  }),
+    "email_placeholder": t(function (Handlebars,depth0,helpers,partials,data) {
+  this.compilerInfo = [4,'>= 1.0.0'];
+helpers = this.merge(helpers, Handlebars.helpers); data = data || {};
+  
+
+
+  return "Email address...";
+  }),
+    "no_bullshit": t(function (Handlebars,depth0,helpers,partials,data) {
+  this.compilerInfo = [4,'>= 1.0.0'];
+helpers = this.merge(helpers, Handlebars.helpers); data = data || {};
+  
+
+
+  return "Free. No Spam. Weekly (at most). Delivered directly to your inbox. Unsubscribe at any time.";
+  }),
+    "browse_previous": t(function (Handlebars,depth0,helpers,partials,data) {
+  this.compilerInfo = [4,'>= 1.0.0'];
+helpers = this.merge(helpers, Handlebars.helpers); data = data || {};
+  
+
+
+  return "Browse Previous Issues";
+  }),
+    "curated_by": t(function (Handlebars,depth0,helpers,partials,data) {
+  this.compilerInfo = [4,'>= 1.0.0'];
+helpers = this.merge(helpers, Handlebars.helpers); data = data || {};
+  
+
+
+  return "Curated by <a href='http://www.aymerick.com'>Aymerick</a> / <a href='http://twitter.com/aymerick'>@aymerick</a>, father of Luka, a little boy with Williams Syndrome.";
+  }),
+    "inspired_by": t(function (Handlebars,depth0,helpers,partials,data) {
+  this.compilerInfo = [4,'>= 1.0.0'];
+helpers = this.merge(helpers, Handlebars.helpers); data = data || {};
+  
+
+
+  return "Concept and design borrowed from <a href='http://twitter.com/owz'>Owain Williams</a>'s awesome <a href='http://emberweekly.com/'>Ember.js weekly newsletter</a>.";
+  }),
+    "unsubscribe": t(function (Handlebars,depth0,helpers,partials,data) {
+  this.compilerInfo = [4,'>= 1.0.0'];
+helpers = this.merge(helpers, Handlebars.helpers); data = data || {};
+  
+
+
+  return "Unsubscrive from Planet Williams Weekly";
+  })
   }
 }; e["default"]= o;});
