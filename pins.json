@@ -970,4 +970,16 @@
     "country-name": "Ireland"
   },
   "location" : [ 54.63, -5.91 ]
+}, {
+  "category": "association",
+  "org": "Viviendo con síndrome de Williams, A.C.",
+  "url": "http://sindromedewilliamsymisersingular.blogspot.mx",
+  "facebook": "https://www.facebook.com/ViviendoConSindromeDeWilliamsAc",
+  "twitter": "https://twitter.com/VivirWilliamsAC",
+  "email": "viviendoconsindromedewilliams@hotmail.com",
+  "adr": {
+    "locality": "Orizaba",
+    "country-name": "Mexico"
+  },
+  "location" : [ 18.85, -97.09 ]
 }]
