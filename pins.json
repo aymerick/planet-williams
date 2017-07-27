@@ -982,4 +982,21 @@
     "country-name": "Mexico"
   },
   "location" : [ 18.85, -97.09 ]
+}, {
+  "category": "association",
+  "org": "Associazione Persone Williams Italia Onlus",
+  "photo": "http://apwitalia.com/wp-content/uploads/2016/11/cropped-Logo-APW-Italia-Colori.jpg",
+  "url": "http://www.apwitalia.org",
+  "facebook": "https://www.facebook.com/apwitalia/",
+  "twitter": "https://twitter.com/apwitaliaonlus",
+  "email": "segreteria@apwitalia.org",
+  "tel": "",
+  "adr": {
+    "street-address": "Via Franceschi 1/D",
+    "postal-code": "50018",
+    "locality": "Scandicci",
+    "region": "Firenze",
+    "country-name": "Italia"
+  },
+  "location" : [ 43.748434, 11.186435 ]
 }]
